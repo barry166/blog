@@ -5,13 +5,13 @@
   "author": {
     "name": "gaoyi(Evan) Xu"
   },
-  "homepage": "https://github.com/solkatt/vuepress-theme-vdoing#readme",
+  "homepage": "https://github.com/barry166/blog#readme",
   "bugs": {
-    "url": "https://github.com/solkatt/vuepress-theme-vdoing/issues"
+    "url": "https://github.com/barry166/blog/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/solkatt/vuepress-theme-vdoing.git"
+    "url": "git+https://github.com/barry166/blog.git"
   },
   "keywords": [
     "documentation",
