@@ -1,0 +1,2 @@
+# Redirect www.xx.com/blog to a specific Netlify site
+/www.solkatt.vip/blog/*  https://solkatt.vip/:splat  200
