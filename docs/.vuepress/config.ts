@@ -172,9 +172,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://fastly.jsdelivr.net/gh/solkatt/image_store/blog/20200103123203.jpg',
+      avatar: 'https://avatars.githubusercontent.com/u/91018388?v=4',
       name: 'Solkatt',
-      slogan: '前端界的小学生',
+      slogan: '前端、全栈、AIGC',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.solkatt.com/pages/a20ce8/#social)
