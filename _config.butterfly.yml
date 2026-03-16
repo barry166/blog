@@ -1,0 +1,595 @@
+# --------------------------------------
+# Hexo Butterfly 主题配置
+# 文档: https://butterfly.js.org/
+# 基于模板站 butterfly.js.org 配置同步
+# --------------------------------------
+
+# --------------------------------------
+# 导航设置
+# --------------------------------------
+
+nav:
+  logo:
+  display_title: true
+  display_post_title: true
+  fixed: false
+
+# 多级菜单 + 多语言选项（与模板站一致）
+menu:
+  首页: / || fas fa-home
+  目录||fas fa-compass:
+    归档: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
+  关于: /about/ || fas fa-heart
+  语言||fas fa-language:
+    简体中文: / || fas fa-globe
+    English: /en/ || fas fa-e
+
+# --------------------------------------
+# 代码块设置
+# --------------------------------------
+
+code_blocks:
+  theme: light
+  macStyle: false
+  height_limit: 400
+  word_wrap: false
+  copy: true
+  language: true
+  shrink: false
+  fullpage: true
+
+# 社交链接
+social:
+  fab fa-github: https://github.com/ || Github || '#24292e'
+
+# --------------------------------------
+# 图片设置
+# --------------------------------------
+
+favicon: /img/favicon.png
+
+avatar:
+  img: /img/avatar.png
+  effect: false
+
+disable_top_img: false
+
+# 默认顶部图（与模板站一致）
+default_top_img: https://oss.012700.xyz/butterfly/2024/10/index.jpg
+
+# 首页头图（与模板站一致的深色烟雾风格）
+index_img: https://oss.012700.xyz/butterfly/2024/10/index.jpg
+
+# 归档页头图
+archive_img: https://oss.012700.xyz/butterfly/2024/10/archive.jpg
+
+# 标签页头图
+tag_img: https://oss.012700.xyz/butterfly/2024/10/tag.png
+
+tag_per_img:
+
+# 分类页头图
+category_img: https://oss.012700.xyz/butterfly/2024/10/category.jpg
+
+category_per_img:
+
+# Footer 背景图（与模板站一致，复用首页头图）
+footer_img: true
+
+# 网站背景
+background:
+
+# 文章封面
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  default_cover:
+    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-1.png
+    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-2.png
+    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-3.png
+    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-4.png
+    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-5.png
+    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-6.png
+    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-7.png
+    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-8.png
+    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-9.png
+
+error_img:
+  flink: /img/friend_404.gif
+  post_page: /img/404.jpg
+
+# 404 页面
+error_404:
+  enable: true
+  subtitle: '页面没有找到'
+  background: https://oss.012700.xyz/butterfly/2024/10/butterfly-404.png
+
+post_meta:
+  page:
+    date_type: created
+    date_format: relative
+    categories: true
+    tags: false
+    label: true
+  post:
+    position: left
+    date_type: created
+    date_format: relative
+    categories: true
+    tags: true
+    label: true
+
+# --------------------------------------
+# 首页设置
+# --------------------------------------
+
+index_site_info_top:
+index_top_img_height:
+
+# 打字机副标题（使用一言 API）
+subtitle:
+  enable: true
+  effect: true
+  typed_option:
+    loop: true
+  source: 1
+  sub:
+    - "欢迎来到 Barry's Blog"
+    - "记录技术与生活"
+
+index_layout: 3
+
+index_post_content:
+  method: 3
+  length: 500
+
+# --------------------------------------
+# 文章设置
+# --------------------------------------
+
+toc:
+  post: true
+  page: false
+  number: true
+  expand: true
+  style_simple: false
+  scroll_percent: true
+
+post_copyright:
+  enable: true
+  decode: false
+  author_href:
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+reward:
+  enable: false
+  text:
+  QR_code:
+
+post_edit:
+  enable: false
+  url:
+
+related_post:
+  enable: true
+  limit: 6
+  date_type: created
+
+post_pagination: 1
+
+noticeOutdate:
+  enable: false
+  style: flat
+  limit_day: 365
+  position: top
+  message_prev: 距离上次更新已经过了
+  message_next: 天，文章所描述的内容可能已经发生变化，请留意。
+
+# --------------------------------------
+# 页脚设置
+# --------------------------------------
+
+footer:
+  nav:
+  owner:
+    enable: true
+    since: 2026
+  copyright:
+    enable: true
+    version: true
+  custom_text:
+
+# --------------------------------------
+# 侧边栏设置
+# --------------------------------------
+
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description:
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/xxxxxx
+  card_announcement:
+    enable: true
+    content: This is my Blog
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+    sort_order:
+  card_newest_comments:
+    enable: false
+    sort_order:
+    limit: 6
+    storage: 10
+    avatar: true
+  card_categories:
+    enable: true
+    limit: 8
+    expand: none
+    sort_order:
+  card_tags:
+    enable: true
+    limit: 40
+    # 彩色标签云（与模板站一致）
+    color: true
+    custom_colors:
+    orderby: random
+    order: 1
+    sort_order:
+  card_archives:
+    enable: true
+    type: monthly
+    format: YYYY年MM月
+    order: -1
+    limit: 8
+    sort_order:
+  card_post_series:
+    enable: true
+    series_title: false
+    orderBy: 'date'
+    order: -1
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+    sort_order:
+    runtime_date:
+
+# --------------------------------------
+# 右下角按钮
+# --------------------------------------
+
+rightside_bottom:
+
+# 繁简转换（与模板站一致）
+translate:
+  enable: true
+  default: 繁
+  defaultEncoding: 2
+  translateDelay: 0
+  msgToTraditionalChinese: '繁'
+  msgToSimplifiedChinese: '簡'
+
+readmode: true
+
+# 暗色模式（跟随系统设置）
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1
+  start:
+  end:
+
+# 滚动百分比显示
+rightside_scroll_percent: true
+
+# 右下角按钮排序（与模板站一致）
+rightside_item_order:
+  enable: true
+  hide: readmode,darkmode,hideAside
+  show: toc,translate,chat,comment
+
+rightside_config_animation: true
+
+# --------------------------------------
+# 全局设置
+# --------------------------------------
+
+anchor:
+  auto_update: false
+  click_to_scroll: true
+
+photofigcaption: false
+
+copy:
+  enable: true
+  copyright:
+    enable: true
+    limit_count: 150
+
+# 字数统计（需安装 hexo-wordcount 插件）
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
+
+busuanzi:
+  site_uv: false
+  site_pv: false
+  page_pv: false
+
+# --------------------------------------
+# 数学公式
+# --------------------------------------
+
+math:
+  use:
+  per_page: true
+  hide_scrollbar: false
+  mathjax:
+    enableMenu: true
+    tags: none
+  katex:
+    copy_tex: false
+
+# --------------------------------------
+# 搜索
+# --------------------------------------
+
+search:
+  use: local_search
+  placeholder:
+  algolia_search:
+    hitsPerPage: 6
+  local_search:
+    preload: false
+    top_n_per_article: 1
+    unescape: false
+    pagination:
+      enable: true
+      hitsPerPage: 8
+    CDN:
+  docsearch:
+    appId:
+    apiKey:
+    indexName:
+    option:
+
+# --------------------------------------
+# 分享
+# --------------------------------------
+
+share:
+  use: sharejs
+  sharejs:
+    sites: facebook,x,wechat,weibo,qq
+  addtoany:
+    item: facebook,x,wechat,sina_weibo,facebook_messenger,email,copy_link
+
+# --------------------------------------
+# 评论系统（后续按需开启）
+# --------------------------------------
+
+comments:
+  use:
+  text: true
+  lazyload: false
+  count: false
+  card_post_count: false
+
+# --------------------------------------
+# 统计分析
+# --------------------------------------
+
+baidu_analytics:
+google_analytics:
+cloudflare_analytics:
+microsoft_clarity:
+
+# --------------------------------------
+# 美化 / 效果
+# --------------------------------------
+
+# 分类和标签页使用首页样式
+category_ui: index
+tag_ui: index
+
+rounded_corners_ui: true
+text_align_justify: false
+
+mask:
+  header: true
+  footer: true
+
+preloader:
+  enable: false
+  source: 1
+  pace_css_url:
+
+enter_transitions: true
+display_mode: light
+
+# 文章内容美化
+beautify:
+  enable: true
+  field: post
+  title_prefix_icon: '\f0c1'
+  title_prefix_icon_color: '#F47466'
+
+# 全局字体设置（与模板站一致）
+font:
+  global_font_size: 15px
+  code_font_size:
+  font_family:
+  code_font_family:
+
+# 站点标题字体（与模板站一致，使用 Titillium Web）
+blog_title_font:
+  font_link: https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
+  font_family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+
+hr_icon:
+  enable: true
+  icon:
+  icon_top:
+
+activate_power_mode:
+  enable: false
+  colorful: true
+  shake: true
+  mobile: false
+
+# 彩带背景效果（与模板站一致）
+canvas_ribbon:
+  enable: true
+  size: 150
+  alpha: 0.6
+  zIndex: -1
+  click_to_change: false
+  mobile: false
+
+canvas_fluttering_ribbon:
+  enable: false
+  mobile: false
+
+canvas_nest:
+  enable: false
+  color: '0,0,255'
+  opacity: 0.7
+  zIndex: -1
+  count: 99
+  mobile: false
+
+fireworks:
+  enable: false
+  zIndex: 9999
+  mobile: false
+
+click_heart:
+  enable: false
+  mobile: false
+
+clickShowText:
+  enable: false
+  text:
+  fontSize: 15px
+  random: false
+  mobile: false
+
+# --------------------------------------
+# 图片灯箱
+# --------------------------------------
+
+lightbox: fancybox
+
+# --------------------------------------
+# 标签外挂
+# --------------------------------------
+
+series:
+  enable: true
+  orderBy: 'title'
+  order: 1
+  number: true
+
+abcjs:
+  enable: false
+  per_page: true
+
+mermaid:
+  enable: true
+  code_write: true
+  theme:
+    light: default
+    dark: dark
+  open_in_new_tab: true
+  zoom_pan: true
+
+chartjs:
+  enable: false
+
+note:
+  style: flat
+  icons: true
+  border_radius: 3
+  light_bg_offset: 0
+
+# --------------------------------------
+# 其他设置
+# --------------------------------------
+
+# 页面无刷新跳转
+pjax:
+  enable: true
+  exclude:
+
+aplayerInject:
+  enable: false
+  per_page: true
+
+snackbar:
+  enable: false
+  position: bottom-left
+  bg_light: '#49b1f5'
+  bg_dark: '#1f1f1f'
+
+# 链接预加载
+instantpage: true
+
+# 图片懒加载
+lazyload:
+  enable: true
+  native: false
+  field: site
+  placeholder:
+  blur: false
+
+pwa:
+  enable: false
+  manifest:
+  apple_touch_icon:
+  favicon_32_32:
+  favicon_16_16:
+  mask_icon:
+
+Open_Graph_meta:
+  enable: true
+  option:
+
+structured_data:
+  enable: false
+
+css_prefix: true
+
+# 自定义注入
+inject:
+  head:
+    - <link rel="stylesheet" href="/css/custom.css">
+  bottom:
+    - <script src="/js/custom.js"></script>
+
+# CDN 设置
+CDN:
+  internal_provider: local
+  third_party_provider: jsdelivr
+  version: true
+  custom_format:
+  option:
