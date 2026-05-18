@@ -13,13 +13,16 @@
     video.className = 'home-banner-video'
     video.src = bannerVideoSrc
     video.autoplay = true
-    video.loop = true
+    video.loop = false
     video.muted = true
     video.playsInline = true
     video.preload = 'auto'
     video.setAttribute('aria-hidden', 'true')
     video.setAttribute('muted', '')
     video.setAttribute('playsinline', '')
+    video.addEventListener('ended', () => {
+      video.pause()
+    }, { once: true })
 
     header.prepend(video)
 
