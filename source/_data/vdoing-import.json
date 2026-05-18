@@ -1,0 +1,1706 @@
+{
+  "sourceRepo": "https://github.com/xugaoyi/vuepress-theme-vdoing.git",
+  "sourceCommit": "d77b42053c1f139cd7de39555eb282041fba747f",
+  "seed": "d50ad623f6831e8fec43f54c424c8abf5e6ecbdd10d0be97d7fcc79704017ffd",
+  "importedAt": "2026-05-18T08:50:46.483Z",
+  "candidateCount": 214,
+  "importedCount": 100,
+  "posts": [
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/02.TypeScript 常用语法/02.变量声明.md",
+      "target": "source/_posts/vdoing/vdoing-54add7f5cf78088e.md",
+      "slug": "vdoing-54add7f5cf78088e",
+      "title": "变量声明",
+      "date": "2020-01-05 10:17:47",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "TypeScript 常用语法"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《React》笔记/01.核心概念/05.事件处理.md",
+      "target": "source/_posts/vdoing/vdoing-f27775.md",
+      "slug": "vdoing-f27775",
+      "title": "事件处理",
+      "date": "2021-03-24 17:56:40",
+      "categories": [
+        "《React》笔记",
+        "核心概念"
+      ],
+      "tags": [
+        "React"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/01.前端/25.JavaScript文章/100.比typeof运算符更准确的类型判断.md",
+      "target": "source/_posts/vdoing/vdoing-fd4a16d56b83c1bc.md",
+      "slug": "vdoing-fd4a16d56b83c1bc",
+      "title": "比typeof运算符更准确的类型判断",
+      "date": "2020-04-13 15:56:54",
+      "categories": [
+        "前端",
+        "JavaScript文章"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/14.Proxy.md",
+      "target": "source/_posts/vdoing/vdoing-f56ec2ab97d60483.md",
+      "slug": "vdoing-f56ec2ab97d60483",
+      "title": "Proxy",
+      "date": "2020-02-09 16:00:29",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/34.参考链接.md",
+      "target": "source/_posts/vdoing/vdoing-ea6f3b870f6dab69.md",
+      "slug": "vdoing-ea6f3b870f6dab69",
+      "title": "参考链接",
+      "date": "2020-02-09 16:00:30",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/11.ts-axios 单元测试/01.前言.md",
+      "target": "source/_posts/vdoing/vdoing-df36888424843793.md",
+      "slug": "vdoing-df36888424843793",
+      "title": "前言",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 单元测试"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/12.Symbol.md",
+      "target": "source/_posts/vdoing/vdoing-02c86eb2792f3262.md",
+      "slug": "vdoing-02c86eb2792f3262",
+      "title": "Symbol",
+      "date": "2020-02-09 16:00:29",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/18.Generator 函数的语法.md",
+      "target": "source/_posts/vdoing/vdoing-718b48ed9ce0adce.md",
+      "slug": "vdoing-718b48ed9ce0adce",
+      "title": "Generator 函数的语法",
+      "date": "2020-02-09 16:00:29",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/02.页面/20.CSS/06.flex布局案例-输入框布局.md",
+      "target": "source/_posts/vdoing/vdoing-05cc577fb51c7998.md",
+      "slug": "vdoing-05cc577fb51c7998",
+      "title": "flex布局案例-输入框布局",
+      "date": "2019-12-25 14:27:01",
+      "categories": [
+        "页面",
+        "CSS"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Git》学习笔记/20.文档笔记/80.Git工具-查看修订版本.md",
+      "target": "source/_posts/vdoing/vdoing-c984d1.md",
+      "slug": "vdoing-c984d1",
+      "title": "Git工具-查看修订版本",
+      "date": "2020-11-18 17:43:57",
+      "categories": [
+        "《Git》学习笔记"
+      ],
+      "tags": [
+        "Git"
+      ],
+      "images": [
+        {
+          "original": "https://git-scm.com/book/en/v2/images/double-dot.png",
+          "target": "/img/vdoing/vdoing-c984d1/double-dot-9ead5d1bc7.png",
+          "kind": "remote"
+        }
+      ],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《React》笔记/01.核心概念/02.元素渲染.md",
+      "target": "source/_posts/vdoing/vdoing-b5d372.md",
+      "slug": "vdoing-b5d372",
+      "title": "元素渲染",
+      "date": "2021-03-24 17:56:40",
+      "categories": [
+        "《React》笔记",
+        "核心概念"
+      ],
+      "tags": [
+        "React"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Vue》笔记/02.组件/50.子组件派发事件和值给父组件.md",
+      "target": "source/_posts/vdoing/vdoing-0f19a1bcac14fd41.md",
+      "slug": "vdoing-0f19a1bcac14fd41",
+      "title": "子组件派发事件和值给父组件",
+      "date": "2020-02-04 12:56:51",
+      "categories": [
+        "《Vue》笔记",
+        "组件"
+      ],
+      "tags": [
+        "Vue"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《React》笔记/04.案例演示/01.案例演示.md",
+      "target": "source/_posts/vdoing/vdoing-87146f.md",
+      "slug": "vdoing-87146f",
+      "title": "案例演示",
+      "date": "2021-03-27 15:04:09",
+      "categories": [
+        "《React》笔记",
+        "案例演示"
+      ],
+      "tags": [
+        "React"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/04.ts-axios 基础功能实现/06.处理响应 data.md",
+      "target": "source/_posts/vdoing/vdoing-922cb4268499dc3f.md",
+      "slug": "vdoing-922cb4268499dc3f",
+      "title": "处理响应 data",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 基础功能实现"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/02.页面/20.CSS/45.如何根据系统主题自动响应CSS深色模式.md",
+      "target": "source/_posts/vdoing/vdoing-5dde351274f1e39d.md",
+      "slug": "vdoing-5dde351274f1e39d",
+      "title": "如何根据系统主题自动响应CSS深色模式",
+      "date": "2020-03-31 14:06:26",
+      "categories": [
+        "页面",
+        "CSS"
+      ],
+      "tags": [
+        "css"
+      ],
+      "images": [
+        {
+          "original": "https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200427163531.jpg",
+          "target": "/img/vdoing/vdoing-5dde351274f1e39d/20200427163531-235a1dbfe9.jpg",
+          "kind": "remote"
+        }
+      ],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/23.Module 的语法.md",
+      "target": "source/_posts/vdoing/vdoing-efe2fb04eb8ac5fb.md",
+      "slug": "vdoing-efe2fb04eb8ac5fb",
+      "title": "Module 的语法",
+      "date": "2020-02-09 16:00:29",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/12.ts-axios 部署与发布/02.引用 ts-axios 库.md",
+      "target": "source/_posts/vdoing/vdoing-c6bdbd5bd60adf5a.md",
+      "slug": "vdoing-c6bdbd5bd60adf5a",
+      "title": "引用 ts-axios 库",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 部署与发布"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/01.前端/25.JavaScript文章/90.JS获取和修改url参数.md",
+      "target": "source/_posts/vdoing/vdoing-7a91be2d502346ce.md",
+      "slug": "vdoing-7a91be2d502346ce",
+      "title": "JS获取和修改url参数",
+      "date": "2020-03-05 12:45:37",
+      "categories": [
+        "前端",
+        "JavaScript文章"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/17.Iterator 和 for-of 循环.md",
+      "target": "source/_posts/vdoing/vdoing-48df907ad3570f3d.md",
+      "slug": "vdoing-48df907ad3570f3d",
+      "title": "Iterator 和 for-of 循环",
+      "date": "2020-02-09 16:00:29",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/11.ts-axios 单元测试/03.辅助模块单元测试.md",
+      "target": "source/_posts/vdoing/vdoing-13f147a9b355c4c1.md",
+      "slug": "vdoing-13f147a9b355c4c1",
+      "title": "辅助模块单元测试",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 单元测试"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/03.技术/01.技术文档/01.Git使用手册.md",
+      "target": "source/_posts/vdoing/vdoing-9a7ee40fc232253e.md",
+      "slug": "vdoing-9a7ee40fc232253e",
+      "title": "Git使用手册",
+      "date": "2019-12-25 14:27:01",
+      "categories": [
+        "技术",
+        "技术文档"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《React》笔记/02.高级指引/01.高级指引.md",
+      "target": "source/_posts/vdoing/vdoing-b7ec27.md",
+      "slug": "vdoing-b7ec27",
+      "title": "高级指引",
+      "date": "2021-03-25 19:46:01",
+      "categories": [
+        "《React》笔记",
+        "高级指引"
+      ],
+      "tags": [
+        "React"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/01.前端/25.JavaScript文章/1110.三级目录/00.四级文件.md",
+      "target": "source/_posts/vdoing/vdoing-8481d1.md",
+      "slug": "vdoing-8481d1",
+      "title": "四级文件(测试)",
+      "date": "2020-12-11 11:15:53",
+      "categories": [
+        "前端",
+        "JavaScript文章",
+        "三级目录"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/02.页面/10.HTML/10.常用meta整理.md",
+      "target": "source/_posts/vdoing/vdoing-8309a5b876fc95e3.md",
+      "slug": "vdoing-8309a5b876fc95e3",
+      "title": "常用meta整理",
+      "date": "2020-02-21 12:20:10",
+      "categories": [
+        "页面",
+        "HTML"
+      ],
+      "tags": [],
+      "images": [
+        {
+          "original": "https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200221134927.jpg",
+          "target": "/img/vdoing/vdoing-8309a5b876fc95e3/20200221134927-0e3692c555.jpg",
+          "kind": "remote"
+        },
+        {
+          "original": "https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200221134638.png",
+          "target": "/img/vdoing/vdoing-8309a5b876fc95e3/20200221134638-0fdf7f8263.png",
+          "kind": "remote"
+        }
+      ],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《React》笔记/03.Hook/02.使用State Hook.md",
+      "target": "source/_posts/vdoing/vdoing-82baa3.md",
+      "slug": "vdoing-82baa3",
+      "title": "使用State Hook",
+      "date": "2021-04-06 19:13:06",
+      "categories": [
+        "《React》笔记",
+        "Hook"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/05.ts-axios 异常情况处理/01.错误处理.md",
+      "target": "source/_posts/vdoing/vdoing-6a8bef7b98dfdcf9.md",
+      "slug": "vdoing-6a8bef7b98dfdcf9",
+      "title": "错误处理",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 异常情况处理"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《React》笔记/01.核心概念/04.State&生命周期.md",
+      "target": "source/_posts/vdoing/vdoing-1e3ca2.md",
+      "slug": "vdoing-1e3ca2",
+      "title": "State&生命周期",
+      "date": "2021-03-24 17:56:40",
+      "categories": [
+        "《React》笔记",
+        "核心概念"
+      ],
+      "tags": [
+        "React"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/04.更多/10.实用技巧/10.一行代码“黑”掉任意网站.md",
+      "target": "source/_posts/vdoing/vdoing-dcebaf.md",
+      "slug": "vdoing-dcebaf",
+      "title": "一行代码“黑”掉任意网站",
+      "date": "2021-11-25 14:33:51",
+      "categories": [
+        "更多",
+        "实用技巧"
+      ],
+      "tags": [
+        "JavaScript",
+        "css",
+        "实用技巧"
+      ],
+      "images": [
+        {
+          "original": "https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store@master/blog/QQ20211125-163111.2tmjlvz28n80.png",
+          "target": "/img/vdoing/vdoing-dcebaf/qq20211125-163111-2tmjlvz28n80-82ad5b2e94.png",
+          "kind": "remote"
+        },
+        {
+          "original": "https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store@master/blog/QQ20211125-154655.1byvlo5a60xs.png",
+          "target": "/img/vdoing/vdoing-dcebaf/qq20211125-154655-1byvlo5a60xs-576729cc84.png",
+          "kind": "remote"
+        },
+        {
+          "original": "https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store@master/blog/QQ20211125-163111.2tmjlvz28n80.png",
+          "target": "/img/vdoing/vdoing-dcebaf/qq20211125-163111-2tmjlvz28n80-82ad5b2e94.png",
+          "kind": "remote"
+        }
+      ],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Vue》笔记/02.组件/60.兄弟组件传值.md",
+      "target": "source/_posts/vdoing/vdoing-809f4582d9ca9552.md",
+      "slug": "vdoing-809f4582d9ca9552",
+      "title": "兄弟组件传值",
+      "date": "2020-02-04 13:04:32",
+      "categories": [
+        "《Vue》笔记",
+        "组件"
+      ],
+      "tags": [
+        "Vue"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/04.ts-axios 基础功能实现/04.获取响应数据.md",
+      "target": "source/_posts/vdoing/vdoing-a57debe141e1e4f4.md",
+      "slug": "vdoing-a57debe141e1e4f4",
+      "title": "获取响应数据",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 基础功能实现"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Vue》笔记/01.基础/10.生命周期.md",
+      "target": "source/_posts/vdoing/vdoing-176808a1b5f843b8.md",
+      "slug": "vdoing-176808a1b5f843b8",
+      "title": "生命周期",
+      "date": "2020-02-04 15:06:59",
+      "categories": [
+        "《Vue》笔记",
+        "基础"
+      ],
+      "tags": [
+        "Vue"
+      ],
+      "images": [
+        {
+          "original": "https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200204152241.png",
+          "target": "/img/vdoing/vdoing-176808a1b5f843b8/20200204152241-05cc81ad94.png",
+          "kind": "remote"
+        }
+      ],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/03.技术/03.Nodejs/01.nodejs递归读取所有文件.md",
+      "target": "source/_posts/vdoing/vdoing-117708e0af7f0bd9.md",
+      "slug": "vdoing-117708e0af7f0bd9",
+      "title": "nodejs递归读取所有文件",
+      "date": "2019-12-26 15:57:32",
+      "categories": [
+        "技术",
+        "Nodejs"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/06.正则的扩展.md",
+      "target": "source/_posts/vdoing/vdoing-0473261a6ab0ee8c.md",
+      "slug": "vdoing-0473261a6ab0ee8c",
+      "title": "正则的扩展",
+      "date": "2020-02-09 16:00:29",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/03.技术/01.技术文档/20.Git修改分支名.md",
+      "target": "source/_posts/vdoing/vdoing-922650.md",
+      "slug": "vdoing-922650",
+      "title": "Git修改分支名",
+      "date": "2022-08-11 10:51:18",
+      "categories": [
+        "技术",
+        "技术文档"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Git》学习笔记/10.手册/03.Git变基合并.md",
+      "target": "source/_posts/vdoing/vdoing-c10281.md",
+      "slug": "vdoing-c10281",
+      "title": "Git变基合并",
+      "date": "2020-11-18 17:43:57",
+      "categories": [
+        "《Git》学习笔记"
+      ],
+      "tags": [
+        "Git"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/03.技术/01.技术文档/10.npm packageJson属性详解.md",
+      "target": "source/_posts/vdoing/vdoing-dec4f3f00e71a312.md",
+      "slug": "vdoing-dec4f3f00e71a312",
+      "title": "npm packageJson属性详解",
+      "date": "2020-04-08 17:16:38",
+      "categories": [
+        "技术",
+        "技术文档"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/02.页面/20.CSS/08.CSS3之animation动画.md",
+      "target": "source/_posts/vdoing/vdoing-c2c0432138f6e042.md",
+      "slug": "vdoing-c2c0432138f6e042",
+      "title": "CSS3之animation动画",
+      "date": "2019-12-25 14:27:01",
+      "categories": [
+        "页面",
+        "CSS"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/01.前端/40.学习笔记/40.小程序笔记.md",
+      "target": "source/_posts/vdoing/vdoing-wx-miniprogram.md",
+      "slug": "vdoing-wx-miniprogram",
+      "title": "小程序笔记",
+      "date": "2019-12-25 14:27:01",
+      "categories": [
+        "前端",
+        "学习笔记"
+      ],
+      "tags": [
+        "小程序"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/04.更多/01.学习/02.提高学习效率的策略.md",
+      "target": "source/_posts/vdoing/vdoing-a8692ab3bdcb4588.md",
+      "slug": "vdoing-a8692ab3bdcb4588",
+      "title": "提高学习效率的策略",
+      "date": "2020-01-04 11:54:14",
+      "categories": [
+        "更多",
+        "学习"
+      ],
+      "tags": [],
+      "images": [
+        {
+          "original": "https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200103144032.png",
+          "target": "/img/vdoing/vdoing-a8692ab3bdcb4588/20200103144032-1fa9ef5aca.png",
+          "kind": "remote"
+        }
+      ],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/10.ts-axios 更多功能实现/05.自定义合法状态码.md",
+      "target": "source/_posts/vdoing/vdoing-40b41ce8e8159567.md",
+      "slug": "vdoing-40b41ce8e8159567",
+      "title": "自定义合法状态码",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 更多功能实现"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/08.ts-axios 配置化实现/02.请求和响应配置化.md",
+      "target": "source/_posts/vdoing/vdoing-f5b627bfebba87fc.md",
+      "slug": "vdoing-f5b627bfebba87fc",
+      "title": "请求和响应配置化",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 配置化实现"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Vue》笔记/02.组件/65.非父子组件传值.md",
+      "target": "source/_posts/vdoing/vdoing-d408e64f666f146d.md",
+      "slug": "vdoing-d408e64f666f146d",
+      "title": "非父子组件传值",
+      "date": "2020-02-15 14:55:03",
+      "categories": [
+        "《Vue》笔记",
+        "组件"
+      ],
+      "tags": [
+        "Vue"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Vue》笔记/01.基础/30.v-if vs v-show.md",
+      "target": "source/_posts/vdoing/vdoing-73e4064340277b05.md",
+      "slug": "vdoing-73e4064340277b05",
+      "title": "v-if vs v-show",
+      "date": "2020-02-04 17:32:23",
+      "categories": [
+        "《Vue》笔记",
+        "基础"
+      ],
+      "tags": [
+        "Vue"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Vue》笔记/06.规模化/100.vuex操作相关.md",
+      "target": "source/_posts/vdoing/vdoing-d9d62d6ab8ff99a6.md",
+      "slug": "vdoing-d9d62d6ab8ff99a6",
+      "title": "vuex操作相关",
+      "date": "2020-02-04 13:15:19",
+      "categories": [
+        "《Vue》笔记",
+        "规模化"
+      ],
+      "tags": [
+        "Vue"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/02.页面/20.CSS/30.文字在一行或多行时超出显示省略号.md",
+      "target": "source/_posts/vdoing/vdoing-42b66999cc27dc25.md",
+      "slug": "vdoing-42b66999cc27dc25",
+      "title": "文字在一行或多行时超出显示省略号",
+      "date": "2020-02-23 15:07:08",
+      "categories": [
+        "页面",
+        "CSS"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《React》笔记/01.核心概念/07.列表&Key.md",
+      "target": "source/_posts/vdoing/vdoing-88f4b0.md",
+      "slug": "vdoing-88f4b0",
+      "title": "列表&Key",
+      "date": "2021-03-24 17:56:40",
+      "categories": [
+        "《React》笔记",
+        "核心概念"
+      ],
+      "tags": [
+        "React"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/01.前端/25.JavaScript文章/50.js随机打乱数组.md",
+      "target": "source/_posts/vdoing/vdoing-40b4db2d38ba85f2.md",
+      "slug": "vdoing-40b4db2d38ba85f2",
+      "title": "JS随机打乱数组",
+      "date": "2020-02-08 17:42:03",
+      "categories": [
+        "前端",
+        "JavaScript文章"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Vue》笔记/02.组件/55.自定义事件.md",
+      "target": "source/_posts/vdoing/vdoing-9651417d08d1779d.md",
+      "slug": "vdoing-9651417d08d1779d",
+      "title": "自定义事件",
+      "date": "2020-02-15 11:27:45",
+      "categories": [
+        "《Vue》笔记",
+        "组件"
+      ],
+      "tags": [
+        "Vue"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/01.前端/25.JavaScript文章/06.多种数组去重性能对比.md",
+      "target": "source/_posts/vdoing/vdoing-e808fba1fa8fbab2.md",
+      "slug": "vdoing-e808fba1fa8fbab2",
+      "title": "多种数组去重性能对比",
+      "date": "2019-12-25 14:27:01",
+      "categories": [
+        "前端",
+        "JavaScript文章"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/02.页面/20.CSS/03.flex布局案例-骰子.md",
+      "target": "source/_posts/vdoing/vdoing-eff61bc8b4f4695d.md",
+      "slug": "vdoing-eff61bc8b4f4695d",
+      "title": "flex布局案例-骰子",
+      "date": "2019-12-25 14:27:01",
+      "categories": [
+        "页面",
+        "CSS"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/07.数值的扩展.md",
+      "target": "source/_posts/vdoing/vdoing-5dfea9a0f2d1a392.md",
+      "slug": "vdoing-5dfea9a0f2d1a392",
+      "title": "数值的扩展",
+      "date": "2020-02-09 16:00:29",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/31.函数式编程.md",
+      "target": "source/_posts/vdoing/vdoing-1cf50330655efc69.md",
+      "slug": "vdoing-1cf50330655efc69",
+      "title": "函数式编程",
+      "date": "2020-02-09 16:00:30",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/33.SIMD.md",
+      "target": "source/_posts/vdoing/vdoing-8e8f80f69b775a56.md",
+      "slug": "vdoing-8e8f80f69b775a56",
+      "title": "SIMD",
+      "date": "2020-02-09 16:00:30",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/03.技术/02.GitHub技巧/02.GitHub Actions 实现自动部署静态博客.md",
+      "target": "source/_posts/vdoing/vdoing-6b9d359ec5aa5019.md",
+      "slug": "vdoing-6b9d359ec5aa5019",
+      "title": "GitHub Actions 实现自动部署静态博客",
+      "date": "2019-12-27 11:44:41",
+      "categories": [
+        "技术",
+        "GitHub技巧"
+      ],
+      "tags": [],
+      "images": [
+        {
+          "original": "https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200103124812.jpg",
+          "target": "/img/vdoing/vdoing-6b9d359ec5aa5019/20200103124812-1ac2cf22af.jpg",
+          "kind": "remote"
+        },
+        {
+          "original": "https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200103124813.png",
+          "target": "/img/vdoing/vdoing-6b9d359ec5aa5019/20200103124813-dd0e8ed5f7.png",
+          "kind": "remote"
+        }
+      ],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/04.更多/01.学习/03.提高记忆的技巧.md",
+      "target": "source/_posts/vdoing/vdoing-996822b2a2ca6e3b.md",
+      "slug": "vdoing-996822b2a2ca6e3b",
+      "title": "提高记忆的技巧",
+      "date": "2020-01-03 14:34:48",
+      "categories": [
+        "更多",
+        "学习"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/20.async 函数.md",
+      "target": "source/_posts/vdoing/vdoing-3777253e65bac487.md",
+      "slug": "vdoing-3777253e65bac487",
+      "title": "async 函数",
+      "date": "2020-02-09 16:00:29",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/05.字符串的新增方法.md",
+      "target": "source/_posts/vdoing/vdoing-a650b4a0ebfc9350.md",
+      "slug": "vdoing-a650b4a0ebfc9350",
+      "title": "字符串的新增方法",
+      "date": "2020-02-09 16:00:29",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/01.前端/40.学习笔记/35.TypeScript笔记.md",
+      "target": "source/_posts/vdoing/vdoing-51afd6.md",
+      "slug": "vdoing-51afd6",
+      "title": "TypeScript笔记",
+      "date": "2020-10-08 13:02:48",
+      "categories": [
+        "前端",
+        "学习笔记"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Vue》笔记/02.组件/36.使用组件的细节点.md",
+      "target": "source/_posts/vdoing/vdoing-83a1ab785e7fd70c.md",
+      "slug": "vdoing-83a1ab785e7fd70c",
+      "title": "使用组件的细节点",
+      "date": "2020-02-13 13:26:20",
+      "categories": [
+        "《Vue》笔记",
+        "组件"
+      ],
+      "tags": [
+        "Vue"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/02.页面/20.CSS/00.CSS教程和技巧收藏.md",
+      "target": "source/_posts/vdoing/vdoing-c8f128.md",
+      "slug": "vdoing-c8f128",
+      "title": "CSS教程和技巧收藏",
+      "date": "2020-08-11 17:13:52",
+      "categories": [
+        "页面",
+        "CSS"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Git》学习笔记/20.文档笔记/100.Git工具-重写历史.md",
+      "target": "source/_posts/vdoing/vdoing-1832fe.md",
+      "slug": "vdoing-1832fe",
+      "title": "Git工具-重写历史",
+      "date": "2020-11-18 17:43:57",
+      "categories": [
+        "《Git》学习笔记"
+      ],
+      "tags": [
+        "Git"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/09.ts-axios 取消功能实现/01.取消功能的设计与实现.md",
+      "target": "source/_posts/vdoing/vdoing-fdc6da5372397430.md",
+      "slug": "vdoing-fdc6da5372397430",
+      "title": "取消功能的设计与实现",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 取消功能实现"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/10.ts-axios 更多功能实现/04.HTTP 授权.md",
+      "target": "source/_posts/vdoing/vdoing-89cd6496c23159ae.md",
+      "slug": "vdoing-89cd6496c23159ae",
+      "title": "HTTP 授权",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 更多功能实现"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/01.ECMAScript 6 简介.md",
+      "target": "source/_posts/vdoing/vdoing-f344d070a1031ef7.md",
+      "slug": "vdoing-f344d070a1031ef7",
+      "title": "ECMAScript 6 简介",
+      "date": "2020-01-12 15:45:35",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/02.页面/20.CSS/80.网格布局中的动画.md",
+      "target": "source/_posts/vdoing/vdoing-b35f63.md",
+      "slug": "vdoing-b35f63",
+      "title": "网格布局中的动画",
+      "date": "2023-09-15 17:30:57",
+      "categories": [
+        "页面",
+        "CSS"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/10.ts-axios 更多功能实现/03.上传和下载的进度监控.md",
+      "target": "source/_posts/vdoing/vdoing-1376fd897809036e.md",
+      "slug": "vdoing-1376fd897809036e",
+      "title": "上传和下载的进度监控",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 更多功能实现"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Git》学习笔记/20.文档笔记/30.Git分支的新建与合并-分支操作.md",
+      "target": "source/_posts/vdoing/vdoing-ea5a8c.md",
+      "slug": "vdoing-ea5a8c",
+      "title": "Git分支的新建与合并-分支操作",
+      "date": "2020-11-18 17:43:57",
+      "categories": [
+        "《Git》学习笔记"
+      ],
+      "tags": [
+        "Git"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Vue》笔记/01.基础/20.计算属性 vs 方法 vs 侦听属性.md",
+      "target": "source/_posts/vdoing/vdoing-351f72ecd9c41129.md",
+      "slug": "vdoing-351f72ecd9c41129",
+      "title": "计算属性 vs 方法 vs 侦听属性",
+      "date": "2020-02-04 16:37:51",
+      "categories": [
+        "《Vue》笔记",
+        "基础"
+      ],
+      "tags": [
+        "Vue"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Vue》笔记/03.过渡&动画/112.使用animate库.md",
+      "target": "source/_posts/vdoing/vdoing-3b0a20e70805fcea.md",
+      "slug": "vdoing-3b0a20e70805fcea",
+      "title": "使用animate库",
+      "date": "2020-02-17 16:05:52",
+      "categories": [
+        "《Vue》笔记",
+        "过渡&动画"
+      ],
+      "tags": [
+        "Vue"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/24.Module 的加载实现.md",
+      "target": "source/_posts/vdoing/vdoing-a79ca2e64ceae213.md",
+      "slug": "vdoing-a79ca2e64ceae213",
+      "title": "Module 的加载实现",
+      "date": "2020-02-09 16:00:29",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/03.技术/02.GitHub技巧/01.GitHub高级搜索技巧.md",
+      "target": "source/_posts/vdoing/vdoing-4c778760be26d8b3.md",
+      "slug": "vdoing-4c778760be26d8b3",
+      "title": "GitHub高级搜索技巧",
+      "date": "2019-12-25 14:27:01",
+      "categories": [
+        "技术",
+        "GitHub技巧"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/11.ts-axios 单元测试/05.headers 模块单元测试.md",
+      "target": "source/_posts/vdoing/vdoing-ddd86ec39b5dfe33.md",
+      "slug": "vdoing-ddd86ec39b5dfe33",
+      "title": "headers 模块单元测试",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 单元测试"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/08.函数的扩展.md",
+      "target": "source/_posts/vdoing/vdoing-8ed309d668b20264.md",
+      "slug": "vdoing-8ed309d668b20264",
+      "title": "函数的扩展",
+      "date": "2020-02-09 16:00:29",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/02.页面/20.CSS/02.flex布局案例-基础.md",
+      "target": "source/_posts/vdoing/vdoing-ea6db1530c42ad51.md",
+      "slug": "vdoing-ea6db1530c42ad51",
+      "title": "flex布局案例-基础",
+      "date": "2019-12-25 14:27:01",
+      "categories": [
+        "页面",
+        "CSS"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/01.前端/25.JavaScript文章/60.判断是否为移动端浏览器.md",
+      "target": "source/_posts/vdoing/vdoing-40f623be692cf8bc.md",
+      "slug": "vdoing-40f623be692cf8bc",
+      "title": "判断是否为移动端浏览器",
+      "date": "2020-01-04 15:25:11",
+      "categories": [
+        "前端",
+        "JavaScript文章"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/04.ts-axios 基础功能实现/01.处理请求 url 参数.md",
+      "target": "source/_posts/vdoing/vdoing-1313dae575f6dddf.md",
+      "slug": "vdoing-1313dae575f6dddf",
+      "title": "处理请求 url 参数",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 基础功能实现"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/02.页面/20.CSS/35.从box-sizing属性入手，了解盒子模型.md",
+      "target": "source/_posts/vdoing/vdoing-20a978023139589d.md",
+      "slug": "vdoing-20a978023139589d",
+      "title": "从box-sizing属性入手，了解盒子模型",
+      "date": "2020-02-27 17:08:48",
+      "categories": [
+        "页面",
+        "CSS"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/04.字符串的扩展.md",
+      "target": "source/_posts/vdoing/vdoing-ca89eca8adeba5f4.md",
+      "slug": "vdoing-ca89eca8adeba5f4",
+      "title": "字符串的扩展",
+      "date": "2020-02-09 16:00:29",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/11.ts-axios 单元测试/02.Jest 安装和配置.md",
+      "target": "source/_posts/vdoing/vdoing-bf5c625a35757b37.md",
+      "slug": "vdoing-bf5c625a35757b37",
+      "title": "Jest 安装和配置",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 单元测试"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/10.ts-axios 更多功能实现/08.静态方法扩展.md",
+      "target": "source/_posts/vdoing/vdoing-c26b053540a7dafa.md",
+      "slug": "vdoing-c26b053540a7dafa",
+      "title": "静态方法扩展",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 更多功能实现"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/04.更多/01.学习/10.搜索引擎使用技巧.md",
+      "target": "source/_posts/vdoing/vdoing-ce818a.md",
+      "slug": "vdoing-ce818a",
+      "title": "搜索引擎使用技巧",
+      "date": "2020-05-24 11:44:19",
+      "categories": [
+        "更多",
+        "学习"
+      ],
+      "tags": [
+        "搜索技巧"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/02.页面/20.CSS/01.flex布局语法.md",
+      "target": "source/_posts/vdoing/vdoing-0a83b083bdf257cb.md",
+      "slug": "vdoing-0a83b083bdf257cb",
+      "title": "flex布局语法",
+      "date": "2019-12-25 14:27:01",
+      "categories": [
+        "页面",
+        "CSS"
+      ],
+      "tags": [],
+      "images": [
+        {
+          "original": "http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071004.png",
+          "target": "/img/vdoing/vdoing-0a83b083bdf257cb/bg2015071004-64661fd2d5.png",
+          "kind": "remote"
+        },
+        {
+          "original": "http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071005.png",
+          "target": "/img/vdoing/vdoing-0a83b083bdf257cb/bg2015071005-2ac96c741d.png",
+          "kind": "remote"
+        },
+        {
+          "original": "http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071006.png",
+          "target": "/img/vdoing/vdoing-0a83b083bdf257cb/bg2015071006-d8f68b57c9.png",
+          "kind": "remote"
+        },
+        {
+          "original": "http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071007.png",
+          "target": "/img/vdoing/vdoing-0a83b083bdf257cb/bg2015071007-a04960c4c4.png",
+          "kind": "remote"
+        },
+        {
+          "original": "http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071008.jpg",
+          "target": "/img/vdoing/vdoing-0a83b083bdf257cb/bg2015071008-a8190319fb.jpg",
+          "kind": "remote"
+        },
+        {
+          "original": "http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071009.jpg",
+          "target": "/img/vdoing/vdoing-0a83b083bdf257cb/bg2015071009-84abcc357b.jpg",
+          "kind": "remote"
+        },
+        {
+          "original": "http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071010.png",
+          "target": "/img/vdoing/vdoing-0a83b083bdf257cb/bg2015071010-55617f534c.png",
+          "kind": "remote"
+        },
+        {
+          "original": "http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071011.png",
+          "target": "/img/vdoing/vdoing-0a83b083bdf257cb/bg2015071011-bc8f50a515.png",
+          "kind": "remote"
+        },
+        {
+          "original": "http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071012.png",
+          "target": "/img/vdoing/vdoing-0a83b083bdf257cb/bg2015071012-f43992d39b.png",
+          "kind": "remote"
+        },
+        {
+          "original": "http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071013.png",
+          "target": "/img/vdoing/vdoing-0a83b083bdf257cb/bg2015071013-6709222de2.png",
+          "kind": "remote"
+        },
+        {
+          "original": "http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071014.png",
+          "target": "/img/vdoing/vdoing-0a83b083bdf257cb/bg2015071014-5e0ba106c5.png",
+          "kind": "remote"
+        },
+        {
+          "original": "http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071015.jpg",
+          "target": "/img/vdoing/vdoing-0a83b083bdf257cb/bg2015071015-aad6017eea.jpg",
+          "kind": "remote"
+        },
+        {
+          "original": "http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071016.png",
+          "target": "/img/vdoing/vdoing-0a83b083bdf257cb/bg2015071016-5c2d93966a.png",
+          "kind": "remote"
+        }
+      ],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/02.页面/20.CSS/20.「布局技巧」图片未加载前自动撑开元素高度.md",
+      "target": "source/_posts/vdoing/vdoing-3d52574260725aea.md",
+      "slug": "vdoing-3d52574260725aea",
+      "title": "「布局技巧」图片未加载前自动撑开元素高度",
+      "date": "2020-02-22 16:37:10",
+      "categories": [
+        "页面",
+        "CSS"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/22.Class 的继承.md",
+      "target": "source/_posts/vdoing/vdoing-83f8c3a0cd87dd83.md",
+      "slug": "vdoing-83f8c3a0cd87dd83",
+      "title": "Class 的继承",
+      "date": "2020-02-09 16:00:29",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/10.ts-axios 更多功能实现/06.自定义参数序列化.md",
+      "target": "source/_posts/vdoing/vdoing-7753b8141663e54a.md",
+      "slug": "vdoing-7753b8141663e54a",
+      "title": "自定义参数序列化",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 更多功能实现"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/04.更多/03.面试/01.面试问题集锦.md",
+      "target": "source/_posts/vdoing/vdoing-aea6571b7a8bae86.md",
+      "slug": "vdoing-aea6571b7a8bae86",
+      "title": "面试问题集锦",
+      "date": "2019-12-25 14:27:01",
+      "categories": [
+        "更多",
+        "面试"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/03.技术/04.博客搭建/03.GitHub + jsDelivr + TinyPNG+ PicGo 打造稳定快速、高效免费图床.md",
+      "target": "source/_posts/vdoing/vdoing-a5f73af5185fdf0a.md",
+      "slug": "vdoing-a5f73af5185fdf0a",
+      "title": "GitHub + jsDelivr + TinyPNG+ PicGo 打造稳定快速、高效免费图床",
+      "date": "2020-01-03 12:55:43",
+      "categories": [
+        "技术",
+        "博客搭建"
+      ],
+      "tags": [],
+      "images": [
+        {
+          "original": "https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200103105720.png",
+          "target": "/img/vdoing/vdoing-a5f73af5185fdf0a/20200103105720-49506aaefd.png",
+          "kind": "remote"
+        },
+        {
+          "original": "https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200103121148.png",
+          "target": "/img/vdoing/vdoing-a5f73af5185fdf0a/20200103121148-f35ccb40ea.png",
+          "kind": "remote"
+        }
+      ],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Vue》笔记/02.组件/90.vue父子组件的生命周期顺序.md",
+      "target": "source/_posts/vdoing/vdoing-e6cec47efa42d7f1.md",
+      "slug": "vdoing-e6cec47efa42d7f1",
+      "title": "vue父子组件的生命周期顺序",
+      "date": "2020-02-18 16:39:33",
+      "categories": [
+        "《Vue》笔记",
+        "组件"
+      ],
+      "tags": [
+        "Vue"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/_posts/随笔/拥抱生活，拥抱快乐.md",
+      "target": "source/_posts/vdoing/vdoing-cd8bde.md",
+      "slug": "vdoing-cd8bde",
+      "title": "拥抱生活，拥抱快乐",
+      "date": "2020-06-26 20:40:38",
+      "categories": [
+        "随笔"
+      ],
+      "tags": [
+        "鸡汤"
+      ],
+      "images": [
+        {
+          "original": "https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200626212238.webp",
+          "target": "/img/vdoing/vdoing-cd8bde/20200626212238-c19238fdec.webp",
+          "kind": "remote"
+        }
+      ],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Vue》笔记/01.基础/00.MVVM模式.md",
+      "target": "source/_posts/vdoing/vdoing-114158caa9e96df0.md",
+      "slug": "vdoing-114158caa9e96df0",
+      "title": "MVVM模式",
+      "date": "2020-02-04 12:19:00",
+      "categories": [
+        "《Vue》笔记",
+        "基础"
+      ],
+      "tags": [
+        "Vue"
+      ],
+      "images": [
+        {
+          "original": "https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200204123438.png",
+          "target": "/img/vdoing/vdoing-114158caa9e96df0/20200204123438-22537ae1d1.png",
+          "kind": "remote"
+        }
+      ],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/11.ts-axios 单元测试/04.请求模块单元测试.md",
+      "target": "source/_posts/vdoing/vdoing-e1d15dec8634e6b5.md",
+      "slug": "vdoing-e1d15dec8634e6b5",
+      "title": "请求模块单元测试",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 单元测试"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/01.前端/25.JavaScript文章/02.new命令原理.md",
+      "target": "source/_posts/vdoing/vdoing-8143cc480faf9a11.md",
+      "slug": "vdoing-8143cc480faf9a11",
+      "title": "new命令原理",
+      "date": "2019-12-25 14:27:01",
+      "categories": [
+        "前端",
+        "JavaScript文章"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/15.Reflect.md",
+      "target": "source/_posts/vdoing/vdoing-74de3e45e4491e95.md",
+      "slug": "vdoing-74de3e45e4491e95",
+      "title": "Reflect",
+      "date": "2020-02-09 16:00:29",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/03.技术/04.博客搭建/01.解决百度无法收录搭建在GitHub上的个人博客的问题.md",
+      "target": "source/_posts/vdoing/vdoing-41f87d890d0a02af.md",
+      "slug": "vdoing-41f87d890d0a02af",
+      "title": "解决百度无法收录搭建在GitHub上的个人博客的问题",
+      "date": "2019-12-25 14:27:01",
+      "categories": [
+        "技术",
+        "博客搭建"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/03.技术/01.技术文档/02.Markdown使用教程.md",
+      "target": "source/_posts/vdoing/vdoing-ad247c4332211551.md",
+      "slug": "vdoing-ad247c4332211551",
+      "title": "Markdown使用教程",
+      "date": "2019-12-25 14:27:01",
+      "categories": [
+        "技术",
+        "技术文档"
+      ],
+      "tags": [],
+      "images": [
+        {
+          "original": "https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png",
+          "target": "/img/vdoing/vdoing-ad247c4332211551/md_logo-4d19f28a71.png",
+          "kind": "remote"
+        },
+        {
+          "original": "https://img.shields.io/badge/github-xugaoyi-brightgreen.svg",
+          "target": "/img/vdoing/vdoing-ad247c4332211551/github-xugaoyi-brightgreen-829baef96c.svg",
+          "kind": "remote"
+        },
+        {
+          "original": "https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png",
+          "target": "/img/vdoing/vdoing-ad247c4332211551/md_logo-4d19f28a71.png",
+          "kind": "remote"
+        },
+        {
+          "original": "https://github.com/xugaoyi/vue-music/raw/master/src/common/image/default.png",
+          "target": "/img/vdoing/vdoing-ad247c4332211551/default-913666567d.png",
+          "kind": "remote"
+        },
+        {
+          "original": "https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png",
+          "target": "/img/vdoing/vdoing-ad247c4332211551/md_logo-4d19f28a71.png",
+          "kind": "remote"
+        }
+      ],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/02.页面/20.CSS/70.CSS给table的tbody添加滚动条.md",
+      "target": "source/_posts/vdoing/vdoing-55f894.md",
+      "slug": "vdoing-55f894",
+      "title": "CSS给table的tbody添加滚动条",
+      "date": "2022-06-29 09:34:23",
+      "categories": [
+        "页面",
+        "CSS"
+      ],
+      "tags": [],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《ES6 教程》笔记/29.最新提案.md",
+      "target": "source/_posts/vdoing/vdoing-7188882b8d65af1b.md",
+      "slug": "vdoing-7188882b8d65af1b",
+      "title": "最新提案",
+      "date": "2020-02-09 16:00:30",
+      "categories": [
+        "《ES6 教程》笔记"
+      ],
+      "tags": [
+        "ES6"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《JavaScript教程》笔记/06.事件.md",
+      "target": "source/_posts/vdoing/vdoing-10b2761db5a8e089.md",
+      "slug": "vdoing-10b2761db5a8e089",
+      "title": "事件",
+      "date": "2020-01-12 11:49:16",
+      "categories": [
+        "《JavaScript教程》笔记"
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《Git》学习笔记/10.手册/06.Git命令思维导图.md",
+      "target": "source/_posts/vdoing/vdoing-4cbc21.md",
+      "slug": "vdoing-4cbc21",
+      "title": "Git命令思维导图",
+      "date": "2020-11-18 17:46:22",
+      "categories": [
+        "《Git》学习笔记"
+      ],
+      "tags": [
+        "Git"
+      ],
+      "images": [
+        {
+          "original": "/img/git.png",
+          "target": "/img/vdoing/vdoing-4cbc21/git-938d1ce695.png",
+          "kind": "local"
+        }
+      ],
+      "skippedImageReferences": []
+    },
+    {
+      "source": "docs/《TypeScript 从零实现 axios》/11.ts-axios 单元测试/09.请求取消模块单元测试.md",
+      "target": "source/_posts/vdoing/vdoing-6fa16aee29527032.md",
+      "slug": "vdoing-6fa16aee29527032",
+      "title": "请求取消模块单元测试",
+      "date": "2020-01-05 10:56:02",
+      "categories": [
+        "《TypeScript 从零实现 axios》",
+        "ts-axios 单元测试"
+      ],
+      "tags": [
+        "TypeScript"
+      ],
+      "images": [],
+      "skippedImageReferences": []
+    }
+  ]
+}

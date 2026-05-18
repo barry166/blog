@@ -1,1 +1,29 @@
 /* 自定义样式 */
+
+#page-header.full_page {
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+#page-header.full_page .home-banner-video {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  pointer-events: none;
+}
+
+#page-header.full_page::before {
+  z-index: 1;
+  pointer-events: none;
+}
+
+#page-header.full_page #nav,
+#page-header.full_page #site-info,
+#page-header.full_page #scroll-down {
+  z-index: 2;
+}
