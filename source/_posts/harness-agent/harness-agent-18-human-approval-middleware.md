@@ -1,5 +1,5 @@
 ---
-title: 用 HumanApprovalMiddleware 拦截高危工具调用
+title: 十八、从零实现 Harness Agent：用 HumanApprovalMiddleware 拦截高危工具调用
 date: "2026-06-09 09:17:00"
 categories:
   - AI
@@ -229,3 +229,4 @@ uv run pytest
 ---
 
 > 来源：本文整理自 `tiny-claw/docs/tutorial/18-高危工具调用人工审批-middleware.md`。
+> 项目地址：[barry166/tiny-claw](https://github.com/barry166/tiny-claw)。

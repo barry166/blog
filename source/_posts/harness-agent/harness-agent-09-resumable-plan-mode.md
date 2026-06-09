@@ -1,5 +1,5 @@
 ---
-title: 给 AI Agent 加一个真正可恢复的 Plan Mode
+title: 九、从零实现 Harness Agent：给 AI Agent 加一个真正可恢复的 Plan Mode
 date: "2026-06-09 09:08:00"
 categories:
   - AI
@@ -209,3 +209,4 @@ uv run pytest
 ---
 
 > 来源：本文整理自 `tiny-claw/docs/tutorial/09-可恢复计划模式.md`。
+> 项目地址：[barry166/tiny-claw](https://github.com/barry166/tiny-claw)。

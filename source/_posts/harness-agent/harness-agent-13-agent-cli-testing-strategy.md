@@ -1,5 +1,5 @@
 ---
-title: 如何测试一个带工具和持久状态的 Agent CLI
+title: 十三、从零实现 Harness Agent：如何测试一个带工具和持久状态的 Agent CLI
 date: "2026-06-09 09:12:00"
 categories:
   - AI
@@ -211,3 +211,4 @@ rm -rf .tmp-state
 ---
 
 > 来源：本文整理自 `tiny-claw/docs/tutorial/13-智能体-cli-测试策略.md`。
+> 项目地址：[barry166/tiny-claw](https://github.com/barry166/tiny-claw)。

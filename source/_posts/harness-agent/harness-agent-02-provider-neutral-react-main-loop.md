@@ -1,5 +1,5 @@
 ---
-title: 把 Agent 主循环从模型 SDK 和工具实现中解耦
+title: 二、从零实现 Harness Agent：把 Agent 主循环从模型 SDK 和工具实现中解耦
 date: "2026-06-09 09:01:00"
 categories:
   - AI
@@ -202,3 +202,4 @@ uv run pytest
 ---
 
 > 来源：本文整理自 `tiny-claw/docs/tutorial/02-模型无关-react-主循环.md`。
+> 项目地址：[barry166/tiny-claw](https://github.com/barry166/tiny-claw)。

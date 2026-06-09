@@ -1,5 +1,5 @@
 ---
-title: 让 Agent 工具调用支持安全并发
+title: 六、从零实现 Harness Agent：让 Agent 工具调用支持安全并发
 date: "2026-06-09 09:05:00"
 categories:
   - AI
@@ -186,3 +186,4 @@ observation 顺序必须和模型返回的 tool call 顺序一致。否则模型
 ---
 
 > 来源：本文整理自 `tiny-claw/docs/tutorial/06-多工具并发执行器.md`。
+> 项目地址：[barry166/tiny-claw](https://github.com/barry166/tiny-claw)。

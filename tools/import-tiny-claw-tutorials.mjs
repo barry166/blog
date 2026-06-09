@@ -13,9 +13,35 @@ const dataOutDir = join(projectRoot, 'source', '_data');
 const manifestPath = join(dataOutDir, 'harness-agent-import.json');
 
 const seriesName = '从零实现Harness Agent';
+const displaySeriesName = '从零实现 Harness Agent';
+const projectRepoUrl = 'https://github.com/barry166/tiny-claw';
 const baseDate = '2026-06-09';
 const tags = ['Agent', 'Python', 'tiny-claw', 'Harness Agent'];
-const expectedArticleCount = 21;
+const expectedArticleCount = 22;
+const chineseOrderNames = [
+  '一',
+  '二',
+  '三',
+  '四',
+  '五',
+  '六',
+  '七',
+  '八',
+  '九',
+  '十',
+  '十一',
+  '十二',
+  '十三',
+  '十四',
+  '十五',
+  '十六',
+  '十七',
+  '十八',
+  '十九',
+  '二十',
+  '二十一',
+  '二十二'
+];
 
 const slugSuffixes = [
   'python-agent-cli-framework',
@@ -38,7 +64,8 @@ const slugSuffixes = [
   'human-approval-middleware',
   'approval-checkpoint-resume',
   'feishu-approval-adapter',
-  'approval-flow-testing'
+  'approval-flow-testing',
+  'mainloop-approval-resume-refactor'
 ];
 
 main();
@@ -92,6 +119,7 @@ function main() {
     manifest.posts.push({
       order: article.order,
       title: article.title,
+      displayTitle: makeDisplayTitle(article),
       source: normalizePath(relative(tutorialDir, article.sourcePath)),
       target: targetRelPath,
       slug,
@@ -119,7 +147,7 @@ function parseMarkdown(file) {
 
 function buildPost(article) {
   const frontmatter = {
-    title: article.title,
+    title: makeDisplayTitle(article),
     date: makeDate(article.order),
     categories: ['AI', seriesName],
     tags,
@@ -131,10 +159,17 @@ function buildPost(article) {
   const sourceNote = [
     '---',
     '',
-    `> 来源：本文整理自 \`tiny-claw/${normalizePath(join('docs/tutorial', article.sourceName))}\`。`
+    `> 来源：本文整理自 \`tiny-claw/${normalizePath(join('docs/tutorial', article.sourceName))}\`。`,
+    `> 项目地址：[barry166/tiny-claw](${projectRepoUrl})。`
   ].join('\n');
 
   return `${dumpFrontmatter(frontmatter)}\n${article.body}\n\n${sourceNote}\n`;
+}
+
+function makeDisplayTitle(article) {
+  const orderName = chineseOrderNames[article.order - 1];
+  if (!orderName) throw new Error(`Missing Chinese order name for article ${article.order}.`);
+  return `${orderName}、${displaySeriesName}：${article.title}`;
 }
 
 function makeSlug(order) {

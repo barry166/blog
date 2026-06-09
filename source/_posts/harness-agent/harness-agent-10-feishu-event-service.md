@@ -1,5 +1,5 @@
 ---
-title: 让 Feishu 回调复用真实 Agent 运行时
+title: 十、从零实现 Harness Agent：让 Feishu 回调复用真实 Agent 运行时
 date: "2026-06-09 09:09:00"
 categories:
   - AI
@@ -221,3 +221,4 @@ Channel 只发送简短进度，不把完整内部日志刷到聊天窗口。外
 ---
 
 > 来源：本文整理自 `tiny-claw/docs/tutorial/10-飞书事件服务.md`。
+> 项目地址：[barry166/tiny-claw](https://github.com/barry166/tiny-claw)。

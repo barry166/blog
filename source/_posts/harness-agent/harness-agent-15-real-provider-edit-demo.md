@@ -1,5 +1,5 @@
 ---
-title: 用真实模型验收 Agent 的文件编辑工具
+title: 十五、从零实现 Harness Agent：用真实模型验收 Agent 的文件编辑工具
 date: "2026-06-09 09:14:00"
 categories:
   - AI
@@ -234,3 +234,4 @@ uv run pytest
 ---
 
 > 来源：本文整理自 `tiny-claw/docs/tutorial/15-真实-provider-edit-demo.md`。
+> 项目地址：[barry166/tiny-claw](https://github.com/barry166/tiny-claw)。

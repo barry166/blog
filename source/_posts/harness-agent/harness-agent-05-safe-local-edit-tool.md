@@ -1,5 +1,5 @@
 ---
-title: 为 AI Agent 实现一个安全的局部文件编辑工具
+title: 五、从零实现 Harness Agent：为 AI Agent 实现一个安全的局部文件编辑工具
 date: "2026-06-09 09:04:00"
 categories:
   - AI
@@ -230,3 +230,4 @@ uv run pytest
 ---
 
 > 来源：本文整理自 `tiny-claw/docs/tutorial/05-安全局部编辑工具.md`。
+> 项目地址：[barry166/tiny-claw](https://github.com/barry166/tiny-claw)。

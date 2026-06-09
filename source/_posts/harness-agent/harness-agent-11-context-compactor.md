@@ -1,5 +1,5 @@
 ---
-title: 防止工具输出撑爆上下文：Agent Context Compactor 设计
+title: 十一、从零实现 Harness Agent：防止工具输出撑爆上下文：Agent Context Compactor 设计
 date: "2026-06-09 09:10:00"
 categories:
   - AI
@@ -214,3 +214,4 @@ uv run pytest
 ---
 
 > 来源：本文整理自 `tiny-claw/docs/tutorial/11-上下文压缩器.md`。
+> 项目地址：[barry166/tiny-claw](https://github.com/barry166/tiny-claw)。

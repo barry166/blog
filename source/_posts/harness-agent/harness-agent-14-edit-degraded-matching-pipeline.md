@@ -1,5 +1,5 @@
 ---
-title: 从精确匹配到缩进归一：Agent 文件编辑的匹配策略设计
+title: 十四、从零实现 Harness Agent：从精确匹配到缩进归一：Agent 文件编辑的匹配策略设计
 date: "2026-06-09 09:13:00"
 categories:
   - AI
@@ -259,3 +259,4 @@ uv run pytest
 ---
 
 > 来源：本文整理自 `tiny-claw/docs/tutorial/14-edit-分层降级匹配管线.md`。
+> 项目地址：[barry166/tiny-claw](https://github.com/barry166/tiny-claw)。

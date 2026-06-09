@@ -1,5 +1,5 @@
 ---
-title: 让 Agent 看懂工具错误：从原始报错到 SOP 自恢复
+title: 十二、从零实现 Harness Agent：让 Agent 看懂工具错误：从原始报错到 SOP 自恢复
 date: "2026-06-09 09:11:00"
 categories:
   - AI
@@ -234,3 +234,4 @@ SOP 必须尊重当前可见工具。如果当前没有暴露 `bash`，就不能
 ---
 
 > 来源：本文整理自 `tiny-claw/docs/tutorial/12-工具错误-sop-兜底机制.md`。
+> 项目地址：[barry166/tiny-claw](https://github.com/barry166/tiny-claw)。

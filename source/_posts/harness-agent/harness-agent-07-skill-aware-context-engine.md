@@ -1,5 +1,5 @@
 ---
-title: 给 Agent 加一个可扩展的 Skill 上下文系统
+title: 七、从零实现 Harness Agent：给 Agent 加一个可扩展的 Skill 上下文系统
 date: "2026-06-09 09:06:00"
 categories:
   - AI
@@ -216,3 +216,4 @@ skill 的定位是任务指导，不是权限来源。这个边界决定了 `all
 ---
 
 > 来源：本文整理自 `tiny-claw/docs/tutorial/07-技能感知上下文引擎.md`。
+> 项目地址：[barry166/tiny-claw](https://github.com/barry166/tiny-claw)。

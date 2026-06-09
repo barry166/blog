@@ -1,5 +1,5 @@
 ---
-title: 从零搭建一个分层 Python Agent CLI 框架
+title: 一、从零实现 Harness Agent：从零搭建一个分层 Python Agent CLI 框架
 date: "2026-06-09 09:00:00"
 categories:
   - AI
@@ -235,3 +235,4 @@ uv run python -m tiny_claw --help
 ---
 
 > 来源：本文整理自 `tiny-claw/docs/tutorial/01-分层-python-智能体-cli-框架.md`。
+> 项目地址：[barry166/tiny-claw](https://github.com/barry166/tiny-claw)。
