@@ -6,6 +6,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
+    "import:harness-agent": "node tools/import-tiny-claw-tutorials.mjs",
     "import:vdoing": "node tools/import-vdoing-docs.mjs",
     "server": "hexo server"
   },
