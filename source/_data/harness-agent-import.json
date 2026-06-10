@@ -1,8 +1,8 @@
 {
   "sourceDir": "/Users/barry/Documents/domain/code/release/tiny-claw/docs/tutorial",
-  "importedAt": "2026-06-09T09:55:30.328Z",
+  "importedAt": "2026-06-10T10:39:07.510Z",
   "series": "从零实现Harness Agent",
-  "importedCount": 22,
+  "importedCount": 28,
   "posts": [
     {
       "order": 1,
@@ -201,6 +201,60 @@
       "target": "source/_posts/harness-agent/harness-agent-22-mainloop-approval-resume-refactor.md",
       "slug": "harness-agent-22-mainloop-approval-resume-refactor",
       "date": "2026-06-09 09:21:00"
+    },
+    {
+      "order": 23,
+      "title": "为 AI Agent 设计一个只读 Explorer Subagent",
+      "displayTitle": "二十三、从零实现 Harness Agent：为 AI Agent 设计一个只读 Explorer Subagent",
+      "source": "23-explorer-subagent-runtime.md",
+      "target": "source/_posts/harness-agent/harness-agent-23-explorer-subagent-runtime.md",
+      "slug": "harness-agent-23-explorer-subagent-runtime",
+      "date": "2026-06-09 09:22:00"
+    },
+    {
+      "order": 24,
+      "title": "把 Subagent 封装成一个普通 Tool：`explore` 的接入设计",
+      "displayTitle": "二十四、从零实现 Harness Agent：把 Subagent 封装成一个普通 Tool：`explore` 的接入设计",
+      "source": "24-explore-tool-adapter.md",
+      "target": "source/_posts/harness-agent/harness-agent-24-explore-tool-adapter.md",
+      "slug": "harness-agent-24-explore-tool-adapter",
+      "date": "2026-06-09 09:23:00"
+    },
+    {
+      "order": 25,
+      "title": "AI Agent 的子会话隔离：让探索结果回流而不是上下文泄洪",
+      "displayTitle": "二十五、从零实现 Harness Agent：AI Agent 的子会话隔离：让探索结果回流而不是上下文泄洪",
+      "source": "25-subagent-session-memory-isolation.md",
+      "target": "source/_posts/harness-agent/harness-agent-25-subagent-session-memory-isolation.md",
+      "slug": "harness-agent-25-subagent-session-memory-isolation",
+      "date": "2026-06-09 09:24:00"
+    },
+    {
+      "order": 26,
+      "title": "给 Subagent 加上可读日志：从启动、结束到 child tool 标记",
+      "displayTitle": "二十六、从零实现 Harness Agent：给 Subagent 加上可读日志：从启动、结束到 child tool 标记",
+      "source": "26-subagent-observability.md",
+      "target": "source/_posts/harness-agent/harness-agent-26-subagent-observability.md",
+      "slug": "harness-agent-26-subagent-observability",
+      "date": "2026-06-09 09:25:00"
+    },
+    {
+      "order": 27,
+      "title": "如何为 AI Agent Subagent 写一个真实 OpenAI E2E 测试",
+      "displayTitle": "二十七、从零实现 Harness Agent：如何为 AI Agent Subagent 写一个真实 OpenAI E2E 测试",
+      "source": "27-openai-subagent-live-test.md",
+      "target": "source/_posts/harness-agent/harness-agent-27-openai-subagent-live-test.md",
+      "slug": "harness-agent-27-openai-subagent-live-test",
+      "date": "2026-06-09 09:26:00"
+    },
+    {
+      "order": 28,
+      "title": "Tiny Claw 的工具并发模型：为什么 read 可以并发，explore 暂不并发",
+      "displayTitle": "二十八、从零实现 Harness Agent：Tiny Claw 的工具并发模型：为什么 read 可以并发，explore 暂不并发",
+      "source": "28-tool-concurrency-boundaries.md",
+      "target": "source/_posts/harness-agent/harness-agent-28-tool-concurrency-boundaries.md",
+      "slug": "harness-agent-28-tool-concurrency-boundaries",
+      "date": "2026-06-09 09:27:00"
     }
   ]
 }

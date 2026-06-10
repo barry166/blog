@@ -17,56 +17,31 @@ const displaySeriesName = '从零实现 Harness Agent';
 const projectRepoUrl = 'https://github.com/barry166/tiny-claw';
 const baseDate = '2026-06-09';
 const tags = ['Agent', 'Python', 'tiny-claw', 'Harness Agent'];
-const expectedArticleCount = 22;
-const chineseOrderNames = [
-  '一',
-  '二',
-  '三',
-  '四',
-  '五',
-  '六',
-  '七',
-  '八',
-  '九',
-  '十',
-  '十一',
-  '十二',
-  '十三',
-  '十四',
-  '十五',
-  '十六',
-  '十七',
-  '十八',
-  '十九',
-  '二十',
-  '二十一',
-  '二十二'
-];
 
-const slugSuffixes = [
-  'python-agent-cli-framework',
-  'provider-neutral-react-main-loop',
-  'provider-adapter-layer',
-  'controlled-tool-system',
-  'safe-local-edit-tool',
-  'parallel-tool-executor',
-  'skill-aware-context-engine',
-  'session-isolated-memory',
-  'resumable-plan-mode',
-  'feishu-event-service',
-  'context-compactor',
-  'tool-error-sop-fallback',
-  'agent-cli-testing-strategy',
-  'edit-degraded-matching-pipeline',
-  'real-provider-edit-demo',
-  'tool-middleware-chain',
-  'tool-policy-allowlist-denylist',
-  'human-approval-middleware',
-  'approval-checkpoint-resume',
-  'feishu-approval-adapter',
-  'approval-flow-testing',
-  'mainloop-approval-resume-refactor'
-];
+const slugSuffixOverrides = new Map([
+  [1, 'python-agent-cli-framework'],
+  [2, 'provider-neutral-react-main-loop'],
+  [3, 'provider-adapter-layer'],
+  [4, 'controlled-tool-system'],
+  [5, 'safe-local-edit-tool'],
+  [6, 'parallel-tool-executor'],
+  [7, 'skill-aware-context-engine'],
+  [8, 'session-isolated-memory'],
+  [9, 'resumable-plan-mode'],
+  [10, 'feishu-event-service'],
+  [11, 'context-compactor'],
+  [12, 'tool-error-sop-fallback'],
+  [13, 'agent-cli-testing-strategy'],
+  [14, 'edit-degraded-matching-pipeline'],
+  [15, 'real-provider-edit-demo'],
+  [16, 'tool-middleware-chain'],
+  [17, 'tool-policy-allowlist-denylist'],
+  [18, 'human-approval-middleware'],
+  [19, 'approval-checkpoint-resume'],
+  [20, 'feishu-approval-adapter'],
+  [21, 'approval-flow-testing'],
+  [22, 'mainloop-approval-resume-refactor']
+]);
 
 main();
 
@@ -86,8 +61,8 @@ function main() {
     .filter(Boolean)
     .sort((left, right) => left.order - right.order);
 
-  if (articles.length !== expectedArticleCount) {
-    throw new Error(`Expected ${expectedArticleCount} tutorial articles, found ${articles.length}.`);
+  if (articles.length === 0) {
+    throw new Error(`No tutorial articles found in ${tutorialDir}.`);
   }
 
   for (let index = 0; index < articles.length; index += 1) {
@@ -110,7 +85,7 @@ function main() {
   };
 
   for (const article of articles) {
-    const slug = makeSlug(article.order);
+    const slug = makeSlug(article.order, article.sourceName);
     const targetRelPath = normalizePath(join('source/_posts/harness-agent', `${slug}.md`));
     const targetPath = join(projectRoot, targetRelPath);
     const output = buildPost(article);
@@ -167,15 +142,37 @@ function buildPost(article) {
 }
 
 function makeDisplayTitle(article) {
-  const orderName = chineseOrderNames[article.order - 1];
-  if (!orderName) throw new Error(`Missing Chinese order name for article ${article.order}.`);
+  const orderName = formatChineseOrder(article.order);
   return `${orderName}、${displaySeriesName}：${article.title}`;
 }
 
-function makeSlug(order) {
-  const suffix = slugSuffixes[order - 1];
+function makeSlug(order, sourceName = '') {
+  const suffix = slugSuffixOverrides.get(order) || slugFromSourceName(sourceName);
   if (!suffix) throw new Error(`Missing slug suffix for article ${order}.`);
   return `harness-agent-${String(order).padStart(2, '0')}-${suffix}`;
+}
+
+function slugFromSourceName(sourceName) {
+  return sourceName
+    .replace(/\.md$/i, '')
+    .replace(/^\d{2}-/, '')
+    .normalize('NFKD')
+    .replace(/[^\p{Letter}\p{Number}_-]+/gu, '-')
+    .replace(/^-+|-+$/g, '')
+    .toLowerCase();
+}
+
+function formatChineseOrder(value) {
+  if (!Number.isInteger(value) || value <= 0 || value > 99) {
+    throw new Error(`Unsupported Chinese order value: ${value}.`);
+  }
+
+  const digits = ['', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
+  if (value <= 10) return value === 10 ? '十' : digits[value];
+  if (value < 20) return `十${digits[value % 10]}`;
+  const tens = Math.floor(value / 10);
+  const ones = value % 10;
+  return `${digits[tens]}十${digits[ones]}`;
 }
 
 function makeDate(order) {
