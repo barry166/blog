@@ -1,8 +1,8 @@
 {
   "sourceDir": "/Users/barry/Documents/domain/code/release/tiny-claw/docs/tutorial",
-  "importedAt": "2026-06-10T10:39:07.510Z",
+  "importedAt": "2026-06-14T15:41:27.532Z",
   "series": "从零实现Harness Agent",
-  "importedCount": 28,
+  "importedCount": 29,
   "posts": [
     {
       "order": 1,
@@ -255,6 +255,15 @@
       "target": "source/_posts/harness-agent/harness-agent-28-tool-concurrency-boundaries.md",
       "slug": "harness-agent-28-tool-concurrency-boundaries",
       "date": "2026-06-09 09:27:00"
+    },
+    {
+      "order": 29,
+      "title": "从黑盒到决策树：为 Agent 实现轻量级 Tracing",
+      "displayTitle": "二十九、从零实现 Harness Agent：从黑盒到决策树：为 Agent 实现轻量级 Tracing",
+      "source": "29-agent-tracing-json-decision-tree.md",
+      "target": "source/_posts/harness-agent/harness-agent-29-agent-tracing-json-decision-tree.md",
+      "slug": "harness-agent-29-agent-tracing-json-decision-tree",
+      "date": "2026-06-09 09:28:00"
     }
   ]
 }
