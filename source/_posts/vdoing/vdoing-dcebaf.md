@@ -12,7 +12,6 @@ author: xugaoyi
 vdoing_source: docs/04.更多/10.实用技巧/10.一行代码“黑”掉任意网站.md
 vdoing_repo: "https://github.com/xugaoyi/vuepress-theme-vdoing/tree/d77b420"
 titleTag: 原创
-sticky: 1
 ---
 # 一行代码“黑”掉任意网站
 
