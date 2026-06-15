@@ -1,6 +1,13 @@
 ---
-title: 十四、从零实现 Harness Agent：edit-分层降级匹配管线
+title: 从零实现 Harness Agent：Edit 工具的降级匹配管线
 date: "2026-06-09 09:13:00"
+description: "本文讲解 EditTool 的分层降级匹配管线，如何在换行、缩进和首尾空白存在差异时仍安全定位唯一 old_text。"
+keywords:
+  - EditTool
+  - 降级匹配
+  - 局部编辑
+  - 文本替换
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 14
 tiny_claw_source: docs/tutorial/14-edit-分层降级匹配管线.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：Agent CLI 测试策略](/2026/06/09/harness-agent/harness-agent-13-agent-cli-testing-strategy/) | 下一篇：[从零实现 Harness Agent：真实 Provider 编辑演示](/2026/06/09/harness-agent/harness-agent-15-real-provider-edit-demo/)
 
 ## 本节目标
 

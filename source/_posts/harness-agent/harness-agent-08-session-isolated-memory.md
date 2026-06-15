@@ -1,6 +1,13 @@
 ---
-title: 八、从零实现 Harness Agent：会话隔离记忆设计
+title: 从零实现 Harness Agent：会话隔离记忆设计
 date: "2026-06-09 09:07:00"
+description: "本文讲解 session-scoped memory 设计，让 CLI 默认会话、命名会话、飞书聊天和后续 Subagent 拥有独立的记忆与状态目录。"
+keywords:
+  - Session Memory
+  - 会话隔离
+  - Agent 记忆
+  - Harness Agent
+  - 状态管理
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 8
 tiny_claw_source: docs/tutorial/08-会话隔离记忆设计.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：构建 Skill 感知上下文引擎](/2026/06/09/harness-agent/harness-agent-07-skill-aware-context-engine/) | 下一篇：[从零实现 Harness Agent：可恢复 Plan Mode 设计](/2026/06/09/harness-agent/harness-agent-09-resumable-plan-mode/)
 
 ## 本节目标
 

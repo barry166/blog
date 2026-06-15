@@ -1,6 +1,13 @@
 ---
-title: 四、从零实现 Harness Agent：受控工具系统
+title: 从零实现 Harness Agent：构建默认受控的工具系统
 date: "2026-06-09 09:03:00"
+description: "本文讲解如何构建默认受控的 Agent 工具系统，让模型只能看到显式启用且经过上下文策略过滤的 read、write、edit、bash 工具。"
+keywords:
+  - Agent 工具系统
+  - Tool Registry
+  - 工具权限
+  - Harness Agent
+  - AI Agent 安全
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 4
 tiny_claw_source: docs/tutorial/04-受控工具系统.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：设计模型 Provider 适配层](/2026/06/09/harness-agent/harness-agent-03-provider-adapter-layer/) | 下一篇：[从零实现 Harness Agent：实现安全的局部编辑工具](/2026/06/09/harness-agent/harness-agent-05-safe-local-edit-tool/)
 
 ## 本节目标
 

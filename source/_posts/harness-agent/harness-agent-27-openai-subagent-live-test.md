@@ -1,6 +1,13 @@
 ---
-title: 二十七、从零实现 Harness Agent：openai-subagent-live-test
+title: 从零实现 Harness Agent：OpenAI Subagent 真实链路测试
 date: "2026-06-09 09:26:00"
+description: "本文讲解如何用真实 OpenAI Provider 验证 Explorer Subagent 端到端链路，观察父 Agent 调用 explore、子 Agent 调用 read 和报告回流。"
+keywords:
+  - OpenAI Subagent
+  - Live Test
+  - Explorer Subagent
+  - 真实链路测试
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 27
 tiny_claw_source: docs/tutorial/27-openai-subagent-live-test.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：Subagent 可观测性设计](/2026/06/09/harness-agent/harness-agent-26-subagent-observability/) | 下一篇：[从零实现 Harness Agent：工具并发边界设计](/2026/06/09/harness-agent/harness-agent-28-tool-concurrency-boundaries/)
 
 ## 本节目标
 

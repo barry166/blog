@@ -1,6 +1,13 @@
 ---
-title: 十九、从零实现 Harness Agent：审批-checkpoint-暂停恢复
+title: 从零实现 Harness Agent：审批 Checkpoint 暂停与恢复
 date: "2026-06-09 09:18:00"
+description: "本文讲解审批 checkpoint 暂停与恢复机制，如何持久化原始 messages、pending tool call 和运行参数，并在人工决策后 fail closed 地继续。"
+keywords:
+  - 审批 Checkpoint
+  - 暂停恢复
+  - Agent 审批
+  - 状态持久化
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 19
 tiny_claw_source: docs/tutorial/19-审批-checkpoint-暂停恢复.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：高危工具调用人工审批](/2026/06/09/harness-agent/harness-agent-18-human-approval-middleware/) | 下一篇：[从零实现 Harness Agent：飞书审批 Adapter 设计](/2026/06/09/harness-agent/harness-agent-20-feishu-approval-adapter/)
 
 ## 本节目标
 

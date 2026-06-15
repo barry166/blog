@@ -1,6 +1,13 @@
 ---
-title: 三、从零实现 Harness Agent：模型-provider-适配层
+title: 从零实现 Harness Agent：设计模型 Provider 适配层
 date: "2026-06-09 09:02:00"
+description: "本文讲解 tiny-claw 的模型 Provider 适配层，如何用统一内部协议接入 OpenAI、Claude、Echo 和 FakeProvider。"
+keywords:
+  - LLM Provider
+  - OpenAI Adapter
+  - Claude Adapter
+  - Harness Agent
+  - 模型适配层
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 3
 tiny_claw_source: docs/tutorial/03-模型-provider-适配层.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：模型无关的 ReAct 主循环](/2026/06/09/harness-agent/harness-agent-02-provider-neutral-react-main-loop/) | 下一篇：[从零实现 Harness Agent：构建默认受控的工具系统](/2026/06/09/harness-agent/harness-agent-04-controlled-tool-system/)
 
 ## 本节目标
 

@@ -1,6 +1,13 @@
 ---
-title: 二十八、从零实现 Harness Agent：tool-concurrency-boundaries
+title: 从零实现 Harness Agent：工具并发边界设计
 date: "2026-06-09 09:27:00"
+description: "本文讲解工具并发边界，说明为什么连续 read 可以并发，而 write、edit、bash 和 explore 默认顺序执行。"
+keywords:
+  - 工具并发边界
+  - ToolExecutor
+  - read 并发
+  - 工具语义
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 28
 tiny_claw_source: docs/tutorial/28-tool-concurrency-boundaries.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：OpenAI Subagent 真实链路测试](/2026/06/09/harness-agent/harness-agent-27-openai-subagent-live-test/) | 下一篇：[从零实现 Harness Agent：Agent Tracing 决策树](/2026/06/09/harness-agent/harness-agent-29-agent-tracing-json-decision-tree/)
 
 ## 本节目标
 

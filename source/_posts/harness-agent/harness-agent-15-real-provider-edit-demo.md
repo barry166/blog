@@ -1,6 +1,13 @@
 ---
-title: 十五、从零实现 Harness Agent：真实-provider-edit-demo
+title: 从零实现 Harness Agent：真实 Provider 编辑演示
 date: "2026-06-09 09:14:00"
+description: "本文用真实 Provider 演示 Agent 编辑链路，验证模型生成工具调用、EditTool 执行局部修改以及最终结果回流主循环的完整路径。"
+keywords:
+  - 真实 Provider
+  - Edit Demo
+  - OpenAI Provider
+  - Agent 工具调用
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 15
 tiny_claw_source: docs/tutorial/15-真实-provider-edit-demo.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：Edit 工具的降级匹配管线](/2026/06/09/harness-agent/harness-agent-14-edit-degraded-matching-pipeline/) | 下一篇：[从零实现 Harness Agent：Tool Middleware 链式执行](/2026/06/09/harness-agent/harness-agent-16-tool-middleware-chain/)
 
 ## 本节目标
 

@@ -1,6 +1,13 @@
 ---
-title: 二十三、从零实现 Harness Agent：explorer-subagent-runtime
+title: 从零实现 Harness Agent：Explorer Subagent 运行时
 date: "2026-06-09 09:22:00"
+description: "本文讲解同步、只读、上下文隔离的 Explorer Subagent，让复杂代码探索在 child session 中完成，只把精炼报告回流父循环。"
+keywords:
+  - Explorer Subagent
+  - Subagent 运行时
+  - 上下文隔离
+  - 代码探索
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 23
 tiny_claw_source: docs/tutorial/23-explorer-subagent-runtime.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：MainLoop 审批恢复重构](/2026/06/09/harness-agent/harness-agent-22-mainloop-approval-resume-refactor/) | 下一篇：[从零实现 Harness Agent：Explore 工具适配器](/2026/06/09/harness-agent/harness-agent-24-explore-tool-adapter/)
 
 ## 本节目标
 

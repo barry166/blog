@@ -1,6 +1,13 @@
 ---
-title: 十一、从零实现 Harness Agent：上下文压缩器
+title: 从零实现 Harness Agent：上下文压缩器设计
 date: "2026-06-09 09:10:00"
+description: "本文讲解 ContextCompactor 的设计，如何在不改写原始历史和 session memory 的前提下，为过长工具输出生成临时压缩视图。"
+keywords:
+  - ContextCompactor
+  - 上下文压缩
+  - Agent 上下文
+  - 工具输出
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 11
 tiny_claw_source: docs/tutorial/11-上下文压缩器.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：飞书事件服务接入](/2026/06/09/harness-agent/harness-agent-10-feishu-event-service/) | 下一篇：[从零实现 Harness Agent：工具错误 SOP 兜底机制](/2026/06/09/harness-agent/harness-agent-12-tool-error-sop-fallback/)
 
 ## 本节目标
 

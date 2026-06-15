@@ -1,6 +1,13 @@
 ---
-title: 十、从零实现 Harness Agent：飞书事件服务
+title: 从零实现 Harness Agent：飞书事件服务接入
 date: "2026-06-09 09:09:00"
+description: "本文讲解如何把飞书消息接入统一 HTTP 事件服务，让外部平台进入同一套 Application.run 和 MainLoop，而不是复制 Agent runtime。"
+keywords:
+  - 飞书事件服务
+  - Feishu Bot
+  - Agent 集成
+  - HTTP Webhook
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 10
 tiny_claw_source: docs/tutorial/10-飞书事件服务.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：可恢复 Plan Mode 设计](/2026/06/09/harness-agent/harness-agent-09-resumable-plan-mode/) | 下一篇：[从零实现 Harness Agent：上下文压缩器设计](/2026/06/09/harness-agent/harness-agent-11-context-compactor/)
 
 ## 本节目标
 

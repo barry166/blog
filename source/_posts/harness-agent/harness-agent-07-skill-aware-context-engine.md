@@ -1,6 +1,13 @@
 ---
-title: 七、从零实现 Harness Agent：技能感知上下文引擎
+title: 从零实现 Harness Agent：构建 Skill 感知上下文引擎
 date: "2026-06-09 09:06:00"
+description: "本文讲解 Skill-aware Context 引擎，如何把 AGENTS.md、skill index、active skill、recent memory 和用户输入组装成模型上下文。"
+keywords:
+  - Skill-aware Context
+  - AGENTS.md
+  - Agent Skills
+  - 上下文工程
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 7
 tiny_claw_source: docs/tutorial/07-技能感知上下文引擎.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：设计多工具并发执行器](/2026/06/09/harness-agent/harness-agent-06-parallel-tool-executor/) | 下一篇：[从零实现 Harness Agent：会话隔离记忆设计](/2026/06/09/harness-agent/harness-agent-08-session-isolated-memory/)
 
 ## 本节目标
 

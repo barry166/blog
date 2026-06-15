@@ -1,6 +1,13 @@
 ---
-title: 十二、从零实现 Harness Agent：工具错误-sop-兜底机制
+title: 从零实现 Harness Agent：工具错误 SOP 兜底机制
 date: "2026-06-09 09:11:00"
+description: "本文讲解工具错误 SOP 兜底机制，如何把 read、edit、bash 等工具失败转换为模型可理解、用户可观测、测试可断言的反馈。"
+keywords:
+  - 工具错误处理
+  - SOP Fallback
+  - Agent 工具调用
+  - 错误恢复
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 12
 tiny_claw_source: docs/tutorial/12-工具错误-sop-兜底机制.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：上下文压缩器设计](/2026/06/09/harness-agent/harness-agent-11-context-compactor/) | 下一篇：[从零实现 Harness Agent：Agent CLI 测试策略](/2026/06/09/harness-agent/harness-agent-13-agent-cli-testing-strategy/)
 
 ## 本节目标
 

@@ -1,6 +1,13 @@
 ---
-title: 开篇、从零实现 Harness Agent：开篇-从黑盒-agent-到可控-harness
+title: 从零实现 Harness Agent：从黑盒 Agent 到可控运行时
 date: "2026-06-09 08:59:00"
+description: "本文是 Harness Agent 系列开篇，解释为什么 AI Agent 需要可控、可恢复、可观察的运行时底座，并介绍 tiny-claw 的核心架构判断。"
+keywords:
+  - Harness Agent
+  - AI Agent 运行时
+  - tiny-claw
+  - 可控 Agent
+  - Agent 架构
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 0
 tiny_claw_source: docs/tutorial/00-开篇-从黑盒-agent-到可控-harness.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 下一篇：[从零实现 Harness Agent：搭建分层 Python Agent CLI 框架](/2026/06/09/harness-agent/harness-agent-01-python-agent-cli-framework/)
 
 欢迎来到 `tiny-claw` 的架构教程。
 

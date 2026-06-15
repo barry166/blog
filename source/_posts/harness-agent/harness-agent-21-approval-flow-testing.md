@@ -1,6 +1,13 @@
 ---
-title: 二十一、从零实现 Harness Agent：审批流程测试与验证
+title: 从零实现 Harness Agent：审批流程测试与验证
 date: "2026-06-09 09:20:00"
+description: "本文讲解高危工具审批流程的测试方法，区分模型拒绝、middleware 拦截、checkpoint 持久化、平台命令和审批后恢复。"
+keywords:
+  - 审批流程测试
+  - Agent 安全测试
+  - Middleware 测试
+  - Feishu 验证
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 21
 tiny_claw_source: docs/tutorial/21-审批流程测试与验证.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：飞书审批 Adapter 设计](/2026/06/09/harness-agent/harness-agent-20-feishu-approval-adapter/) | 下一篇：[从零实现 Harness Agent：MainLoop 审批恢复重构](/2026/06/09/harness-agent/harness-agent-22-mainloop-approval-resume-refactor/)
 
 ## 本节目标
 

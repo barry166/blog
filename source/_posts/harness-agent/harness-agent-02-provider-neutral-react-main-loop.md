@@ -1,6 +1,13 @@
 ---
-title: 二、从零实现 Harness Agent：模型无关-react-主循环
+title: 从零实现 Harness Agent：模型无关的 ReAct 主循环
 date: "2026-06-09 09:01:00"
+description: "本文讲解如何实现模型无关的 ReAct 主循环，让 Agent 可以构建上下文、调用 Provider、执行工具并在多轮流程中返回结果。"
+keywords:
+  - ReAct 主循环
+  - AI Agent
+  - Harness Agent
+  - Tool Call
+  - Provider 无关
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 2
 tiny_claw_source: docs/tutorial/02-模型无关-react-主循环.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：搭建分层 Python Agent CLI 框架](/2026/06/09/harness-agent/harness-agent-01-python-agent-cli-framework/) | 下一篇：[从零实现 Harness Agent：设计模型 Provider 适配层](/2026/06/09/harness-agent/harness-agent-03-provider-adapter-layer/)
 
 ## 本节目标
 

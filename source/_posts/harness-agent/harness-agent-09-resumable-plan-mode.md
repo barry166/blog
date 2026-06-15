@@ -1,6 +1,13 @@
 ---
-title: 九、从零实现 Harness Agent：可恢复计划模式
+title: 从零实现 Harness Agent：可恢复 Plan Mode 设计
 date: "2026-06-09 09:08:00"
+description: "本文讲解 session-scoped Plan Mode，如何把 PLAN.md 和 TODO.md 从模型短期上下文中拿出来，变成可恢复、可检查的任务状态。"
+keywords:
+  - Plan Mode
+  - 可恢复任务
+  - PLAN.md
+  - TODO.md
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 9
 tiny_claw_source: docs/tutorial/09-可恢复计划模式.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：会话隔离记忆设计](/2026/06/09/harness-agent/harness-agent-08-session-isolated-memory/) | 下一篇：[从零实现 Harness Agent：飞书事件服务接入](/2026/06/09/harness-agent/harness-agent-10-feishu-event-service/)
 
 ## 本节目标
 

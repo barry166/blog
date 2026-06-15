@@ -1,6 +1,13 @@
 ---
-title: 六、从零实现 Harness Agent：多工具并发执行器
+title: 从零实现 Harness Agent：设计多工具并发执行器
 date: "2026-06-09 09:05:00"
+description: "本文讲解 ToolExecutor 的多工具调度策略，说明为什么只读工具可以并发执行，而 write、edit、bash 等副作用工具必须顺序执行。"
+keywords:
+  - ToolExecutor
+  - 工具并发
+  - AI Agent 工具调用
+  - Harness Agent
+  - 只读工具
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 6
 tiny_claw_source: docs/tutorial/06-多工具并发执行器.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：实现安全的局部编辑工具](/2026/06/09/harness-agent/harness-agent-05-safe-local-edit-tool/) | 下一篇：[从零实现 Harness Agent：构建 Skill 感知上下文引擎](/2026/06/09/harness-agent/harness-agent-07-skill-aware-context-engine/)
 
 ## 本节目标
 

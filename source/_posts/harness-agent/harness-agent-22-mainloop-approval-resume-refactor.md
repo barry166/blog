@@ -1,6 +1,13 @@
 ---
-title: 二十二、从零实现 Harness Agent：mainloop-审批恢复重构
+title: 从零实现 Harness Agent：MainLoop 审批恢复重构
 date: "2026-06-09 09:21:00"
+description: "本文讲解审批恢复进入主循环后的职责整理，如何拆出运行类型、工具策略、observation 处理和恢复 runner，避免 MainLoop 再次变成黑盒。"
+keywords:
+  - MainLoop 重构
+  - 审批恢复
+  - Agent 架构
+  - 运行时边界
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 22
 tiny_claw_source: docs/tutorial/22-mainloop-审批恢复重构.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：审批流程测试与验证](/2026/06/09/harness-agent/harness-agent-21-approval-flow-testing/) | 下一篇：[从零实现 Harness Agent：Explorer Subagent 运行时](/2026/06/09/harness-agent/harness-agent-23-explorer-subagent-runtime/)
 
 ## 本节目标
 

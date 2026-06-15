@@ -1,6 +1,13 @@
 ---
-title: 二十六、从零实现 Harness Agent：subagent-observability
+title: 从零实现 Harness Agent：Subagent 可观测性设计
 date: "2026-06-09 09:25:00"
+description: "本文讲解 Subagent 可观测性设计，如何通过日志标记启动、结束、child tool 调用和报告长度，让嵌套 Agent 行为可定位。"
+keywords:
+  - Subagent 可观测性
+  - Agent 日志
+  - 嵌套 Agent
+  - 工具调用日志
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 26
 tiny_claw_source: docs/tutorial/26-subagent-observability.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：Subagent 会话与记忆隔离](/2026/06/09/harness-agent/harness-agent-25-subagent-session-memory-isolation/) | 下一篇：[从零实现 Harness Agent：OpenAI Subagent 真实链路测试](/2026/06/09/harness-agent/harness-agent-27-openai-subagent-live-test/)
 
 ## 本节目标
 

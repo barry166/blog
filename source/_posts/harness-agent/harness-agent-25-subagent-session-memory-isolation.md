@@ -1,6 +1,13 @@
 ---
-title: 二十五、从零实现 Harness Agent：subagent-session-memory-isolation
+title: 从零实现 Harness Agent：Subagent 会话与记忆隔离
 date: "2026-06-09 09:24:00"
+description: "本文讲解 Subagent 的子会话与记忆隔离，说明 child session 如何记录探索过程，而父 session 只接收精炼报告。"
+keywords:
+  - Subagent 记忆隔离
+  - SessionRef
+  - Child Session
+  - Agent Memory
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 25
 tiny_claw_source: docs/tutorial/25-subagent-session-memory-isolation.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：Explore 工具适配器](/2026/06/09/harness-agent/harness-agent-24-explore-tool-adapter/) | 下一篇：[从零实现 Harness Agent：Subagent 可观测性设计](/2026/06/09/harness-agent/harness-agent-26-subagent-observability/)
 
 ## 本节目标
 

@@ -1,6 +1,13 @@
 ---
-title: 二十、从零实现 Harness Agent：飞书审批-adapter
+title: 从零实现 Harness Agent：飞书审批 Adapter 设计
 date: "2026-06-09 09:19:00"
+description: "本文讲解飞书审批 Adapter，如何把审批通知、approve、reject 命令接入通用审批流程，同时保持工具系统不依赖平台 SDK。"
+keywords:
+  - 飞书审批
+  - Feishu Adapter
+  - Agent 审批流程
+  - 外部集成
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 20
 tiny_claw_source: docs/tutorial/20-飞书审批-adapter.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：审批 Checkpoint 暂停与恢复](/2026/06/09/harness-agent/harness-agent-19-approval-checkpoint-resume/) | 下一篇：[从零实现 Harness Agent：审批流程测试与验证](/2026/06/09/harness-agent/harness-agent-21-approval-flow-testing/)
 
 ## 本节目标
 

@@ -4,9 +4,9 @@
 
 # Site
 title: Barry's Blog
-subtitle: ''
-description: 个人技术博客
-keywords:
+subtitle: 'AI Agent / 前端 / 工程化实践'
+description: Barry 的中文技术博客，记录 AI Agent、Python、前端工程化与个人项目实践。
+keywords: AI Agent, Python, 前端工程化, Hexo, 技术博客
 author: Barry
 language: zh-CN
 timezone: Asia/Shanghai
@@ -93,6 +93,21 @@ search:
   field: post
   content: true
   format: html
+
+# SEO
+sitemap:
+  path:
+    - sitemap.xml
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: true
+  content_limit:
+  content_limit_delim: ' '
+  order_by: -date
 
 # Deployment
 deploy:

@@ -18,6 +18,7 @@ nav:
 menu:
   首页: / || fas fa-home
   目录||fas fa-compass:
+    Harness Agent: /series/harness-agent/ || fas fa-layer-group
     归档: /archives/ || fas fa-archive
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
@@ -143,7 +144,7 @@ subtitle:
 index_layout: 3
 
 index_post_content:
-  method: 3
+  method: 2
   length: 500
 
 # --------------------------------------

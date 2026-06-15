@@ -1,6 +1,13 @@
 ---
-title: 一、从零实现 Harness Agent：分层-python-智能体-cli-框架
+title: 从零实现 Harness Agent：搭建分层 Python Agent CLI 框架
 date: "2026-06-09 09:00:00"
+description: "本文讲解如何为 tiny-claw 搭建分层 Python Agent CLI 框架，让入口、应用装配、主循环、Provider、工具和状态边界保持清晰。"
+keywords:
+  - Python Agent CLI
+  - Harness Agent
+  - tiny-claw
+  - Agent 框架
+  - CLI 架构
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 1
 tiny_claw_source: docs/tutorial/01-分层-python-智能体-cli-框架.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：从黑盒 Agent 到可控运行时](/2026/06/09/harness-agent/harness-agent-00-intro-black-box-agent-to-controllable-harness/) | 下一篇：[从零实现 Harness Agent：模型无关的 ReAct 主循环](/2026/06/09/harness-agent/harness-agent-02-provider-neutral-react-main-loop/)
 
 ## 本节目标
 

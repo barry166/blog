@@ -1,6 +1,13 @@
 ---
-title: 十六、从零实现 Harness Agent：通用-tool-middleware-链式执行
+title: 从零实现 Harness Agent：Tool Middleware 链式执行
 date: "2026-06-09 09:15:00"
+description: "本文讲解通用 Tool Middleware 链式执行，把审批、策略、日志和真实工具调用拆成可组合边界，避免工具执行器继续膨胀。"
+keywords:
+  - Tool Middleware
+  - 工具中间件
+  - Agent 工具系统
+  - 链式执行
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 16
 tiny_claw_source: docs/tutorial/16-通用-tool-middleware-链式执行.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：真实 Provider 编辑演示](/2026/06/09/harness-agent/harness-agent-15-real-provider-edit-demo/) | 下一篇：[从零实现 Harness Agent：运行时工具 Allowlist/Denylist 策略](/2026/06/09/harness-agent/harness-agent-17-tool-policy-allowlist-denylist/)
 
 ## 本节目标
 

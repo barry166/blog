@@ -1,6 +1,13 @@
 ---
-title: 二十九、从零实现 Harness Agent：agent-tracing-json-decision-tree
+title: 从零实现 Harness Agent：Agent Tracing 决策树
 date: "2026-06-09 09:28:00"
+description: "本文讲解本地轻量级 Agent Tracing，如何把一次运行中的模型调用、工具调用、审批和 Subagent 行为记录成可回放的 JSON 决策树。"
+keywords:
+  - Agent Tracing
+  - JSON 决策树
+  - 可观测性
+  - 工具调用追踪
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 29
 tiny_claw_source: docs/tutorial/29-agent-tracing-json-decision-tree.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：工具并发边界设计](/2026/06/09/harness-agent/harness-agent-28-tool-concurrency-boundaries/)
 
 ## 本节目标
 

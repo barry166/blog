@@ -1,6 +1,13 @@
 ---
-title: 十八、从零实现 Harness Agent：高危工具调用人工审批-middleware
+title: 从零实现 Harness Agent：高危工具调用人工审批
 date: "2026-06-09 09:17:00"
+description: "本文讲解 HumanApprovalMiddleware，如何在高危工具参数命中风险策略时暂停 Agent 运行，把真实副作用交给人工审批。"
+keywords:
+  - 人工审批
+  - HumanApprovalMiddleware
+  - 高危工具
+  - Agent 安全
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 18
 tiny_claw_source: docs/tutorial/18-高危工具调用人工审批-middleware.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：运行时工具 Allowlist/Denylist 策略](/2026/06/09/harness-agent/harness-agent-17-tool-policy-allowlist-denylist/) | 下一篇：[从零实现 Harness Agent：审批 Checkpoint 暂停与恢复](/2026/06/09/harness-agent/harness-agent-19-approval-checkpoint-resume/)
 
 ## 本节目标
 

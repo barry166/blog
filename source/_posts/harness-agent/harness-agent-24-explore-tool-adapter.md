@@ -1,6 +1,13 @@
 ---
-title: 二十四、从零实现 Harness Agent：explore-tool-adapter
+title: 从零实现 Harness Agent：Explore 工具适配器
 date: "2026-06-09 09:23:00"
+description: "本文讲解如何把 Explorer Subagent 封装成普通 explore 工具，让父 MainLoop 不理解子智能体内部细节也能使用复杂探索能力。"
+keywords:
+  - Explore 工具
+  - Subagent Adapter
+  - Tool Adapter
+  - MainLoop 解耦
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 24
 tiny_claw_source: docs/tutorial/24-explore-tool-adapter.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：Explorer Subagent 运行时](/2026/06/09/harness-agent/harness-agent-23-explorer-subagent-runtime/) | 下一篇：[从零实现 Harness Agent：Subagent 会话与记忆隔离](/2026/06/09/harness-agent/harness-agent-25-subagent-session-memory-isolation/)
 
 ## 本节目标
 

@@ -1,6 +1,13 @@
 ---
-title: 十七、从零实现 Harness Agent：运行时工具策略-allowlist-denylist
+title: 从零实现 Harness Agent：运行时工具 Allowlist/Denylist 策略
 date: "2026-06-09 09:16:00"
+description: "本文讲解运行时工具 allowlist 和 denylist 策略，区分模型可见工具与执行时二次拦截，避免不同环境下工具权限失控。"
+keywords:
+  - 工具 Allowlist
+  - 工具 Denylist
+  - Agent 安全策略
+  - 运行时权限
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 17
 tiny_claw_source: docs/tutorial/17-运行时工具策略-allowlist-denylist.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：Tool Middleware 链式执行](/2026/06/09/harness-agent/harness-agent-16-tool-middleware-chain/) | 下一篇：[从零实现 Harness Agent：高危工具调用人工审批](/2026/06/09/harness-agent/harness-agent-18-human-approval-middleware/)
 
 ## 本节目标
 

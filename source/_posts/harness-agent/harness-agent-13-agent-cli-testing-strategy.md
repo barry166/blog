@@ -1,6 +1,13 @@
 ---
-title: 十三、从零实现 Harness Agent：智能体-cli-测试策略
+title: 从零实现 Harness Agent：Agent CLI 测试策略
 date: "2026-06-09 09:12:00"
+description: "本文讲解 tiny-claw 的测试分层，用单元测试、FakeProvider、CLI 测试、集成测试和 live demo 分别约束 Agent runtime 的不稳定性。"
+keywords:
+  - Agent 测试
+  - CLI 测试
+  - FakeProvider
+  - E2E 测试
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 13
 tiny_claw_source: docs/tutorial/13-智能体-cli-测试策略.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：工具错误 SOP 兜底机制](/2026/06/09/harness-agent/harness-agent-12-tool-error-sop-fallback/) | 下一篇：[从零实现 Harness Agent：Edit 工具的降级匹配管线](/2026/06/09/harness-agent/harness-agent-14-edit-degraded-matching-pipeline/)
 
 ## 本节目标
 

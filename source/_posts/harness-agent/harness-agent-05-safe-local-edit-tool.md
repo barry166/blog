@@ -1,6 +1,13 @@
 ---
-title: 五、从零实现 Harness Agent：安全局部编辑工具
+title: 从零实现 Harness Agent：实现安全的局部编辑工具
 date: "2026-06-09 09:04:00"
+description: "本文讲解如何实现安全的 EditTool，让 Agent 通过唯一匹配、路径校验和原子写入完成局部文本替换，而不是重写整个文件。"
+keywords:
+  - EditTool
+  - AI Agent 编辑工具
+  - 局部替换
+  - 原子写入
+  - Harness Agent
 categories:
   - AI
   - 从零实现Harness Agent
@@ -14,6 +21,7 @@ series: 从零实现Harness Agent
 series_order: 5
 tiny_claw_source: docs/tutorial/05-安全局部编辑工具.md
 ---
+> 系列导航：[系列目录](/series/harness-agent/) | 上一篇：[从零实现 Harness Agent：构建默认受控的工具系统](/2026/06/09/harness-agent/harness-agent-04-controlled-tool-system/) | 下一篇：[从零实现 Harness Agent：设计多工具并发执行器](/2026/06/09/harness-agent/harness-agent-06-parallel-tool-executor/)
 
 ## 本节目标
 
