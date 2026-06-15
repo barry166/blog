@@ -1,5 +1,5 @@
 ---
-title: 二十八、从零实现 Harness Agent：Tiny Claw 的工具并发模型：为什么 read 可以并发，explore 暂不并发
+title: 二十八、从零实现 Harness Agent：tool-concurrency-boundaries
 date: "2026-06-09 09:27:00"
 categories:
   - AI
@@ -14,6 +14,14 @@ series: 从零实现Harness Agent
 series_order: 28
 tiny_claw_source: docs/tutorial/28-tool-concurrency-boundaries.md
 ---
+
+## 本节目标
+
+> 导读：本篇回到第二部分「工具与安全边界」做并发复盘：`read` 和 `explore` 都看似只读，但调度成本和风险完全不同。
+
+本节要总结的是工具并发边界：为什么连续 `read` 可以并发，而 `write`、`edit`、`bash` 和 `explore` 默认顺序执行。
+
+完成这一节后，你会理解并发不是性能开关，而是工具语义、安全边界和 Provider 成本共同决定的策略。
 
 ## 摘要
 
@@ -182,6 +190,8 @@ PARALLEL_SUBAGENT_TOOL_NAMES = {"explore"}  # 待设计
 - 子智能体内部多个 `read` 仍可并发。
 - observation 顺序稳定是模型正确理解结果的关键。
 - subagent 并发需要专门设计限流和 provider 安全策略，不能简单套用普通工具白名单。
+
+按可观测性专题继续阅读：[29：Agent Tracing JSON 决策树](29-agent-tracing-json-decision-tree.md) 会把运行时行为沉淀成可回放的结构化记录。
 
 ---
 

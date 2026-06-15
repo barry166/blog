@@ -1,5 +1,5 @@
 ---
-title: "二十四、从零实现 Harness Agent：把 Subagent 封装成一个普通 Tool：`explore` 的接入设计"
+title: 二十四、从零实现 Harness Agent：explore-tool-adapter
 date: "2026-06-09 09:23:00"
 categories:
   - AI
@@ -14,6 +14,14 @@ series: 从零实现Harness Agent
 series_order: 24
 tiny_claw_source: docs/tutorial/24-explore-tool-adapter.md
 ---
+
+## 本节目标
+
+> 导读：本篇属于第五部分「Subagent 与可观测性」，说明如何把 Subagent 能力包装成普通工具，让父 `MainLoop` 保持无感。
+
+本节要实现的是 `explore` 工具 adapter：把 Explorer Subagent 包装成普通 Tool，让父 `MainLoop` 不需要理解子智能体内部细节。
+
+完成这一节后，你会理解如何把运行时能力接入工具系统，同时保持主循环简洁。
 
 ## 摘要
 
@@ -183,6 +191,8 @@ uv run pytest
 - `TINY_CLAW_ENABLED_TOOLS` 继续作为全局能力开关。
 - `ToolInput` 支持运行时上下文，为 session-aware 工具打好基础。
 - 这个 adapter 模式可以作为后续更多 subagent 工具的模板。
+
+按 Subagent 专题继续阅读：[25：Subagent 子会话隔离](25-subagent-session-memory-isolation.md) 会处理父子记忆和状态边界。
 
 ---
 

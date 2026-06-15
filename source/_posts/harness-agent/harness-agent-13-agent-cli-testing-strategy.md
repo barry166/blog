@@ -1,5 +1,5 @@
 ---
-title: 十三、从零实现 Harness Agent：如何测试一个带工具和持久状态的 Agent CLI
+title: 十三、从零实现 Harness Agent：智能体-cli-测试策略
 date: "2026-06-09 09:12:00"
 categories:
   - AI
@@ -16,6 +16,8 @@ tiny_claw_source: docs/tutorial/13-智能体-cli-测试策略.md
 ---
 
 ## 本节目标
+
+> 导读：本篇进入第六部分「测试与验收」，从整体上梳理 Agent runtime 的不同层次应该如何被验证。
 
 本节要建立的是 `tiny-claw` 的测试分层：用不同类型的测试分别验证工具、主循环、上下文、session、Plan Mode、外部集成和真实 Provider 行为。
 
@@ -207,6 +209,8 @@ rm -rf .tmp-state
 - 状态文件、工具副作用和外部平台入口都需要独立测试。
 - Live demo 和 printable E2E 是补充验收，不应替代常规回归。
 - 一套清晰测试命令能让框架演进更可控。
+
+按编号继续阅读：[14：edit 分层降级匹配管线](14-edit-分层降级匹配管线.md) 会继续深入文件编辑工具的匹配策略；按测试专题也可以跳到 [15：真实 Provider edit demo](15-真实-provider-edit-demo.md)。
 
 ---
 

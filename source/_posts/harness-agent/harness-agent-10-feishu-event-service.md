@@ -1,5 +1,5 @@
 ---
-title: 十、从零实现 Harness Agent：让 Feishu 回调复用真实 Agent 运行时
+title: 十、从零实现 Harness Agent：飞书事件服务
 date: "2026-06-09 09:09:00"
 categories:
   - AI
@@ -16,6 +16,8 @@ tiny_claw_source: docs/tutorial/10-飞书事件服务.md
 ---
 
 ## 本节目标
+
+> 导读：本篇进入第四部分「外部集成与审批恢复」，先说明 Feishu 只是入口适配层，不能变成第二套 Agent runtime。
 
 本节要实现的是统一 HTTP 事件服务中的 Feishu 回调入口：让 Feishu 消息可以进入同一套 `Application.run()` 和 `MainLoop`，而不是为外部平台复制一套 Agent runtime。
 
@@ -217,6 +219,8 @@ Channel 只发送简短进度，不把完整内部日志刷到聊天窗口。外
 - Feishu adapter 负责协议转换，FeishuChannel 负责消息发送。
 - Integration app 让外部平台默认使用真实 Provider。
 - HTTP 服务提供了未来接入更多事件平台的统一位置。
+
+按编号继续阅读：[11：上下文压缩器](11-上下文压缩器.md) 会回到上下文工程；按外部集成专题继续，可以跳到 [19：审批 checkpoint 暂停恢复](19-审批-checkpoint-暂停恢复.md)。
 
 ---
 

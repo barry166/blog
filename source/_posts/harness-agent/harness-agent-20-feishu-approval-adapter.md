@@ -1,5 +1,5 @@
 ---
-title: 二十、从零实现 Harness Agent：把飞书接成审批 Adapter，而不是工具
+title: 二十、从零实现 Harness Agent：飞书审批-adapter
 date: "2026-06-09 09:19:00"
 categories:
   - AI
@@ -14,6 +14,14 @@ series: 从零实现Harness Agent
 series_order: 20
 tiny_claw_source: docs/tutorial/20-飞书审批-adapter.md
 ---
+
+## 本节目标
+
+> 导读：本篇属于第四部分「外部集成与审批恢复」，说明 Feishu 在审批体系中是平台 adapter，而不是模型可见工具。
+
+本节要实现的是 Feishu 审批 adapter：把审批通知和 `/approve` / `/reject` 命令接入通用审批流程，同时保持工具系统不依赖平台 SDK。
+
+完成这一节后，你会理解为什么飞书是外部 adapter，而不是模型可见工具。
 
 ## 摘要
 
@@ -240,6 +248,8 @@ uv run pytest
 - `/approve` 和 `/reject` 命令走 `Application.resume_approval(...)`。
 - 普通 Feishu 文本消息仍复用 `Application.run(...)`。
 - 平台能力被隔离在 integration 层，审批核心保持通用。
+
+按审批专题继续阅读：[21：审批流程测试与验证](21-审批流程测试与验证.md) 会把这条跨模块链路变成可证明的行为。
 
 ---
 

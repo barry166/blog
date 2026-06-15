@@ -1,5 +1,5 @@
 ---
-title: 二、从零实现 Harness Agent：把 Agent 主循环从模型 SDK 和工具实现中解耦
+title: 二、从零实现 Harness Agent：模型无关-react-主循环
 date: "2026-06-09 09:01:00"
 categories:
   - AI
@@ -16,6 +16,8 @@ tiny_claw_source: docs/tutorial/02-模型无关-react-主循环.md
 ---
 
 ## 本节目标
+
+> 导读：本篇属于第一部分「基础运行时」，聚焦控制流核心：让 `MainLoop` 做调度中心，而不是模型 SDK、工具实现和状态管理的混合体。
 
 本节要实现的是 `tiny-claw` 的 Agent 主循环：一个可以接收用户请求、构建上下文、调用 Provider、执行工具调用、追加 observation，并在多轮 ReAct 流程中返回最终结果的编排核心。
 
@@ -198,6 +200,8 @@ uv run pytest
 - 内部 schema 让模型厂商差异保持在 provider 目录里。
 - FakeProvider 让多轮 Agent 行为可以稳定测试。
 - 运行模式和工具策略分离，使 `act`、`think`、`plan`、`plan-act` 的边界更清楚。
+
+按编号继续阅读：[03：Provider 适配层](03-模型-provider-适配层.md) 会把模型厂商差异收敛到主循环之外。
 
 ---
 

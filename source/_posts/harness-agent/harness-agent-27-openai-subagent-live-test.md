@@ -1,5 +1,5 @@
 ---
-title: 二十七、从零实现 Harness Agent：如何为 AI Agent Subagent 写一个真实 OpenAI E2E 测试
+title: 二十七、从零实现 Harness Agent：openai-subagent-live-test
 date: "2026-06-09 09:26:00"
 categories:
   - AI
@@ -14,6 +14,14 @@ series: 从零实现Harness Agent
 series_order: 27
 tiny_claw_source: docs/tutorial/27-openai-subagent-live-test.md
 ---
+
+## 本节目标
+
+> 导读：本篇连接第五部分和第六部分：用真实 OpenAI-compatible Provider 补充验收 Subagent 的端到端链路。
+
+本节要补充的是真实 OpenAI Provider 下的 Subagent E2E 验收：观察父 Agent 调用 `explore`、子智能体调用 `read`、报告回流父循环。
+
+完成这一节后，你会知道 live test 如何补充 fake provider 测试，而不是替代它。
 
 ## 摘要
 
@@ -176,6 +184,8 @@ uv run pytest
 - sentinel fixture 让人工审计更可靠。
 - `pytest -s` 适合展示模型工具调用和 session memory。
 - live 测试是补充验收，不替代稳定的单元测试和 fake provider 测试。
+
+按编号继续阅读：[28：工具并发边界](28-tool-concurrency-boundaries.md) 会回到工具调度层，梳理 `read` 与 `explore` 的并发差异。
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 一、从零实现 Harness Agent：从零搭建一个分层 Python Agent CLI 框架
+title: 一、从零实现 Harness Agent：分层-python-智能体-cli-框架
 date: "2026-06-09 09:00:00"
 categories:
   - AI
@@ -16,6 +16,8 @@ tiny_claw_source: docs/tutorial/01-分层-python-智能体-cli-框架.md
 ---
 
 ## 本节目标
+
+> 导读：本篇属于第一部分「基础运行时」，是整套 Agent Harness 的地基：先把 CLI、应用装配和私有实现边界搭起来。
 
 本节要实现的是 `tiny-claw` 的基础运行骨架：一个可以通过 `tiny-claw` 命令启动、支持 `health` / `run` / `serve` 子命令、并且内部已经预留 Agent 核心边界的 Python CLI 框架。
 
@@ -231,6 +233,8 @@ uv run python -m tiny_claw --help
 - `app.py` 是依赖汇合点，`MainLoop` 是控制流核心，但二者都不承担具体 SDK 或工具实现细节。
 - `_internal` 明确了私有实现边界，让外部使用方式保持简单。
 - 这套骨架的价值不是“目录多”，而是让每个新增能力都有清楚的位置。
+
+按编号继续阅读：[02：模型无关 ReAct 主循环](02-模型无关-react-主循环.md) 会把这个骨架里的控制流核心拆出来。
 
 ---
 

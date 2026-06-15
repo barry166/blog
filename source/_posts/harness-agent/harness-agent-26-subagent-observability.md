@@ -1,5 +1,5 @@
 ---
-title: 二十六、从零实现 Harness Agent：给 Subagent 加上可读日志：从启动、结束到 child tool 标记
+title: 二十六、从零实现 Harness Agent：subagent-observability
 date: "2026-06-09 09:25:00"
 categories:
   - AI
@@ -14,6 +14,14 @@ series: 从零实现Harness Agent
 series_order: 26
 tiny_claw_source: docs/tutorial/26-subagent-observability.md
 ---
+
+## 本节目标
+
+> 导读：本篇属于第五部分「Subagent 与可观测性」，让嵌套 Agent 的启动、结束和内部工具调用在日志里有清楚归属。
+
+本节要实现的是 Subagent 的可读日志：让启动、结束、child tool 调用和报告长度都能被维护者定位。
+
+完成这一节后，你会理解嵌套 Agent 的日志为什么必须标记归属。
 
 ## 摘要
 
@@ -195,6 +203,8 @@ uv run pytest
 - 不打印完整 task，有助于保护日志体积和敏感上下文。
 - 日志增强不改变工具执行语义，只提升审计和调试体验。
 - 对嵌套 Agent 来说，可观测性是架构边界的一部分。
+
+按 Subagent 专题继续阅读：[27：OpenAI Subagent live test](27-openai-subagent-live-test.md) 会用真实模型链路补充验收。
 
 ---
 

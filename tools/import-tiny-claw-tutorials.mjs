@@ -19,6 +19,7 @@ const baseDate = '2026-06-09';
 const tags = ['Agent', 'Python', 'tiny-claw', 'Harness Agent'];
 
 const slugSuffixOverrides = new Map([
+  [0, 'intro-black-box-agent-to-controllable-harness'],
   [1, 'python-agent-cli-framework'],
   [2, 'provider-neutral-react-main-loop'],
   [3, 'provider-adapter-layer'],
@@ -40,7 +41,14 @@ const slugSuffixOverrides = new Map([
   [19, 'approval-checkpoint-resume'],
   [20, 'feishu-approval-adapter'],
   [21, 'approval-flow-testing'],
-  [22, 'mainloop-approval-resume-refactor']
+  [22, 'mainloop-approval-resume-refactor'],
+  [23, 'explorer-subagent-runtime'],
+  [24, 'explore-tool-adapter'],
+  [25, 'subagent-session-memory-isolation'],
+  [26, 'subagent-observability'],
+  [27, 'openai-subagent-live-test'],
+  [28, 'tool-concurrency-boundaries'],
+  [29, 'agent-tracing-json-decision-tree']
 ]);
 
 main();
@@ -56,7 +64,14 @@ function main() {
       const file = join(tutorialDir, name);
       if (!statSync(file).isFile()) return null;
       const order = Number(name.slice(0, 2));
-      return { order, sourceName: name, sourcePath: file, ...parseMarkdown(file) };
+      const parsed = parseMarkdown(file);
+      return {
+        order,
+        sourceName: name,
+        sourcePath: file,
+        ...parsed,
+        title: titleFromSourceName(name) || parsed.title
+      };
     })
     .filter(Boolean)
     .sort((left, right) => left.order - right.order);
@@ -65,8 +80,9 @@ function main() {
     throw new Error(`No tutorial articles found in ${tutorialDir}.`);
   }
 
+  const firstOrder = articles[0].order;
   for (let index = 0; index < articles.length; index += 1) {
-    const expectedOrder = index + 1;
+    const expectedOrder = firstOrder + index;
     if (articles[index].order !== expectedOrder) {
       throw new Error(`Missing tutorial article ${String(expectedOrder).padStart(2, '0')}.`);
     }
@@ -120,6 +136,10 @@ function parseMarkdown(file) {
   return { title, body };
 }
 
+function titleFromSourceName(sourceName) {
+  return basename(sourceName, '.md').replace(/^\d{2}-/, '').trim();
+}
+
 function buildPost(article) {
   const frontmatter = {
     title: makeDisplayTitle(article),
@@ -142,6 +162,10 @@ function buildPost(article) {
 }
 
 function makeDisplayTitle(article) {
+  if (article.order === 0) {
+    return `开篇、${displaySeriesName}：${article.title}`;
+  }
+
   const orderName = formatChineseOrder(article.order);
   return `${orderName}、${displaySeriesName}：${article.title}`;
 }
@@ -176,6 +200,8 @@ function formatChineseOrder(value) {
 }
 
 function makeDate(order) {
+  if (order === 0) return `${baseDate} 08:59:00`;
+
   const hour = 9 + Math.floor((order - 1) / 60);
   const minute = (order - 1) % 60;
   return `${baseDate} ${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}:00`;

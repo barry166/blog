@@ -1,5 +1,5 @@
 ---
-title: 十九、从零实现 Harness Agent：用 Checkpoint 实现审批后的暂停与恢复
+title: 十九、从零实现 Harness Agent：审批-checkpoint-暂停恢复
 date: "2026-06-09 09:18:00"
 categories:
   - AI
@@ -14,6 +14,14 @@ series: 从零实现Harness Agent
 series_order: 19
 tiny_claw_source: docs/tutorial/19-审批-checkpoint-暂停恢复.md
 ---
+
+## 本节目标
+
+> 导读：本篇进入第四部分「外部集成与审批恢复」的核心：审批不能阻塞等待，必须用 checkpoint 保存可恢复的运行现场。
+
+本节要实现的是审批后的 checkpoint 暂停与恢复：把原始 messages、pending tool call 和运行参数持久化，让人工决策后可以安全继续。
+
+完成这一节后，你会理解为什么审批不能阻塞等待，以及恢复路径如何做到 fail closed。
 
 ## 摘要
 
@@ -246,6 +254,8 @@ uv run pytest
 - 审批通过后执行原始 frozen tool call。
 - 审批拒绝后注入 rejected observation，让模型继续回应。
 - 恢复路径坚持 fail closed，防止跨 session、过期或重放执行。
+
+按审批专题继续阅读：[20：Feishu 审批 adapter](20-飞书审批-adapter.md) 会把通用审批流程接到真实聊天平台。
 
 ---
 

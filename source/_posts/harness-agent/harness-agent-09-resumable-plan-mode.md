@@ -1,5 +1,5 @@
 ---
-title: 九、从零实现 Harness Agent：给 AI Agent 加一个真正可恢复的 Plan Mode
+title: 九、从零实现 Harness Agent：可恢复计划模式
 date: "2026-06-09 09:08:00"
 categories:
   - AI
@@ -16,6 +16,8 @@ tiny_claw_source: docs/tutorial/09-可恢复计划模式.md
 ---
 
 ## 本节目标
+
+> 导读：本篇属于第三部分「上下文、记忆与计划」，把长任务计划从模型短期上下文中拿出来，落到 session-scoped 文件状态。
 
 本节要实现的是 session-scoped Plan Mode：让 Agent 可以先把长任务规划保存为 `PLAN.md` 和 `TODO.md`，再通过 `plan-act` 从当前未完成 TODO 继续执行。
 
@@ -205,6 +207,8 @@ uv run pytest
 - `PLAN.md/TODO.md` 同时适合人读、模型读和测试解析。
 - `plan-act` 让执行从当前未完成 TODO 开始，而不是自由发挥。
 - 规划阶段和执行阶段的 prompt 边界必须清晰，否则模型会自我阻塞。
+
+按编号继续阅读：[10：Feishu 事件服务](10-飞书事件服务.md) 会切到外部平台入口；如果你想继续上下文专题，可以跳到 [11：上下文压缩器](11-上下文压缩器.md)。
 
 ---
 

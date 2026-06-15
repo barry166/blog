@@ -1,5 +1,5 @@
 ---
-title: 十八、从零实现 Harness Agent：用 HumanApprovalMiddleware 拦截高危工具调用
+title: 十八、从零实现 Harness Agent：高危工具调用人工审批-middleware
 date: "2026-06-09 09:17:00"
 categories:
   - AI
@@ -14,6 +14,14 @@ series: 从零实现Harness Agent
 series_order: 18
 tiny_claw_source: docs/tutorial/18-高危工具调用人工审批-middleware.md
 ---
+
+## 本节目标
+
+> 导读：本篇属于第二部分「工具与安全边界」，处理高危副作用：当风险命中时暂停运行，把决策交给人工审批。
+
+本节要实现的是高危工具调用的人工审批 middleware：当工具参数命中风险策略时，暂停当前 run，而不是直接执行副作用。
+
+完成这一节后，你会理解风险评估、审批记录、暂停状态和工具执行链之间的关系。
 
 ## 摘要
 
@@ -225,6 +233,8 @@ uv run pytest
 - 高危调用会持久化 approval 和 checkpoint，然后返回 suspended。
 - 主循环不阻塞等待人工，而是以 `approval_required` 停止当前 run。
 - 飞书只是审批通知和回复 adapter，不暴露给模型。
+
+按审批专题继续阅读：[19：审批 checkpoint 暂停恢复](19-审批-checkpoint-暂停恢复.md) 会让人工决策之后可以安全继续原始运行。
 
 ---
 
