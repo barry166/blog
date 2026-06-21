@@ -43,7 +43,7 @@ code_blocks:
 
 # 社交链接
 social:
-  fab fa-github: https://github.com/ || Github || '#24292e'
+  fab fa-github: https://github.com/barry166 || GitHub || '#24292e'
 
 # --------------------------------------
 # 图片设置
@@ -52,7 +52,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/avatar.png
+  img: https://github.com/barry166.png
   effect: false
 
 disable_top_img: false
@@ -225,7 +225,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/barry166
   card_announcement:
     enable: true
     content: This is my Blog

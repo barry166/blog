@@ -1,6 +1,8 @@
 ---
 title: 从零实现 Harness Agent 系列目录
 date: 2026-06-15 17:20:00
+permalink: /series/harness-agent/
+sticky: 1000
 description: "从零实现 Harness Agent 系列目录，系统整理 tiny-claw 从 Python CLI、ReAct 主循环、工具系统、会话记忆、审批恢复到 Subagent 可观测性的完整实现路径。"
 keywords:
   - Harness Agent
